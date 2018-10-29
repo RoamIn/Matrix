@@ -4,17 +4,23 @@ import requests
 from time import sleep
 from bs4 import BeautifulSoup
 
+from DB.DbClient import DbClient
 
-def search_page(page=1):
+
+def search_page(category, page=1):
     print('--------- Start page %s -------' % page)
 
-    req = requests.get(url=origin + pathname.format(page), headers=headers)
+    req = requests.get(
+        url=category['origin'] + category['pathname'].format(page),
+        headers=headers)
     html = req.text
     soup = BeautifulSoup(html.encode('gbk'), 'lxml')
     table = soup.find(id='threadlisttableid')
 
-    targets_list = table.find_all('a', class_='s')
-    store_page(targets_list, page)
+    target_list = table.find_all('a', class_='s')
+    store_page(category, target_list)
+
+    print(len(target_list))
 
     page_container = soup.find(id='fd_page_bottom')
     current_page_dom = page_container.find('strong', text=page)
@@ -24,26 +30,28 @@ def search_page(page=1):
 
     if len(next_page) != 0:
         sleep(.2)
-        search_page(next_page.string)
+        search_page(category, next_page.string)
 
 
-def store_page(targets_list, page):
-    page_list = []
-    file_path = './dist/{}.txt'.format(page)
+def store_page(category, target_list):
+    collection = db.torrent
+    torrent_list = []
 
-    for each in targets_list:
-        page_list.append({'title': each.string, 'href': each.get('href')})
+    for target in target_list:
+        pathname = target.get('href')
+        torrent_list.append({
+            'category': category['category'],
+            'origin': category['origin'],
+            'title': target.string,
+            'pathname': pathname,
+            'href': category['origin'] + pathname
+        })
 
-    print('start save %s...' % file_path)
-    # 运用with open as语句使代码更加简洁 避免写异常处理和文件关闭语句
-    with open(file_path, 'w', encoding='utf-8') as file:
-        file.write(json.dumps(page_list))
-    print('save %s success !' % file_path)
+    result = collection.insert_many(torrent_list)
+    print(result)
 
 
 if __name__ == '__main__':
-    origin = 'http://www.321n.net/'
-    pathname = 'forum-292-{}.html'
     headers = {
         'Accept':
         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
@@ -58,5 +66,13 @@ if __name__ == '__main__':
         'User-Agent':
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
     }
+    category_list = [{
+        'category': '原创',
+        'origin': 'http://www.321n.net',
+        'pathname': '/forum-292-{}.html'
+    }]
 
-    search_page()
+    db = DbClient()
+
+    for category in category_list:
+        search_page(category)
