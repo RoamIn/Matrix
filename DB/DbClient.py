@@ -48,8 +48,7 @@ class DbClient(object):
         self.client = getattr(__import__(__type), __type)(
             name=self.config.db_name,
             host=self.config.db_host,
-            port=self.config.db_port,
-            password=self.config.db_password)
+            port=self.config.db_port)
 
     def get(self, key, **kwargs):
         return self.client.get(key, **kwargs)

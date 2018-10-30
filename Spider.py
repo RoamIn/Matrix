@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
 import json
+from sys import stdout
 import requests
 from time import sleep
 from bs4 import BeautifulSoup
@@ -8,11 +9,17 @@ from DB.DbClient import DbClient
 
 
 def search_page(category, page=1):
-    print('--------- Start page %s -------' % page)
+    print('Start page %s:' % page)
 
-    req = requests.get(
-        url=category['origin'] + category['pathname'].format(page),
-        headers=headers)
+    try:
+        req = requests.get(
+            url=category['origin'] + category['pathname'].format(page),
+            headers=headers,
+            timeout=2)
+    except:
+        print('\nSomething wrong, retry...\n')
+        search_page(category, page)
+
     html = req.text
     soup = BeautifulSoup(html.encode('gbk'), 'lxml')
     table = soup.find(id='threadlisttableid')
@@ -20,35 +27,34 @@ def search_page(category, page=1):
     target_list = table.find_all('a', class_='s')
     store_page(category, target_list)
 
-    print(len(target_list))
-
     page_container = soup.find(id='fd_page_bottom')
     current_page_dom = page_container.find('strong', text=page)
-    next_page = current_page_dom.find_next('a')
+    next_page = current_page_dom.find_next_sibling('a')
 
-    print('--------- End page %s \n\n-------' % page)
+    print('\nEnd\n')
 
-    if len(next_page) != 0:
+    if next_page != None:
         sleep(.2)
         search_page(category, next_page.string)
+    else:
+        print(':)\nEverything done !')
 
 
 def store_page(category, target_list):
-    collection = db.torrent
-    torrent_list = []
+    list_len = len(target_list)
 
-    for target in target_list:
+    for i, target in enumerate(target_list):
         pathname = target.get('href')
-        torrent_list.append({
+        db.put({
             'category': category['category'],
             'origin': category['origin'],
             'title': target.string,
             'pathname': pathname,
             'href': category['origin'] + pathname
         })
-
-    result = collection.insert_many(torrent_list)
-    print(result)
+        stdout.write('\r{}/{}'.format(i + 1, list_len))
+        stdout.flush()
+        sleep(.05)
 
 
 if __name__ == '__main__':
@@ -71,7 +77,6 @@ if __name__ == '__main__':
         'origin': 'http://www.321n.net',
         'pathname': '/forum-292-{}.html'
     }]
-
     db = DbClient()
 
     for category in category_list:
