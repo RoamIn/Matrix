@@ -8,32 +8,35 @@ from bs4 import BeautifulSoup
 from DB.DbClient import DbClient
 
 
+# 搜索每页
 def search_page(category, page=1):
-    print('Start page %s:' % page)
-
     try:
         req = requests.get(
             url=category['origin'] + category['pathname'].format(page),
             headers=headers,
-            timeout=30)
+            timeout=3)
 
         html = req.text
         soup = BeautifulSoup(html.encode('gbk'), 'lxml')
-        pgae_list = soup.find(id='threadlisttableid').find_all('a', class_='s')
+        pgae_link_list = soup.find(id='threadlisttableid').find_all(
+            'a', class_='s')
 
-        target_page_list = get_target_page_list(category, pgae_list)
+        # 得到每页中每一条数据的信息（标题、页面地址、分类、torrent）
+        target_list = get_target_list(category, pgae_link_list)
 
-        for target_page in target_page_list:
-            target_page['torrent_list'] = get_page_torrent(target_page)
-            db.put(target_page)
-            print(target_page)
+        target_list_len = len(target_list)
+        for index, target in enumerate(target_list):
+            target['torrent_list'] = get_target_torrent(target)
+            db.put(target)
+
+            stdout.write('\rpage {}: {}/{}'.format(page, index + 1,
+                                                   target_list_len))
+            stdout.flush
             sleep(.2)
 
         page_container = soup.find(id='fd_page_bottom')
         current_page_dom = page_container.find('strong', text=page)
         next_page = current_page_dom.find_next_sibling('a')
-
-        print('\nEnd\n')
 
         if next_page != None:
             sleep(.2)
@@ -46,68 +49,16 @@ def search_page(category, page=1):
         search_page(category, page)
 
 
-'''
-获取 torrent 链接地址
-'''
-
-
-def get_page_torrent(target_page):
-    try:
-        req = requests.get(
-            url=target_page['href'], headers=headers, timeout=30)
-
-        # 解析页面，获取种子下载地址
-        html = req.text
-        soup = BeautifulSoup(html.encode('gbk'), 'lxml')
-        torrent_page_list = soup.find('ignore_js_op').find_all('a')
-
-        torrent_list = []
-        for torrent in torrent_page_list:
-            href = get_torrent_link(target_page['origin'], torrent['href'])
-            torrent_list.append({
-                'href': href,
-                'title': torrent.contents[0].strip()
-            })
-            sleep(.2)
-
-        return torrent_page_list
-
-    except Exception as e:
-        print(e)
-        print('\nSomething wrong, retry...\n')
-        return get_page_torrent(target_page)
-
-
-def get_torrent_link(origin, href):
-    try:
-        req = requests.get(
-            url=origin + '/' + href, headers=headers, timeout=30)
-
-        req.encoding = 'gbk'
-        # 解析页面，获取种子下载地址
-        html = req.text
-
-        with open('code.html', 'w', encoding='utf-8') as file:
-            file.write(html)
-
-        # soup = BeautifulSoup(html.encode('gbk'), 'lxml')
-        # link = soup.find(id='wp').find('center').find('a')
-
-        # print(link)
-
-        # return link.get('href')
-    except Exception as e:
-        print(e)
-        print('\nSomething wrong, retry...\n')
-        return get_torrent_link(origin, href)
-
-
-'''
-混入类别，地址
-'''
-
-
-def get_target_page_list(category, target_list):
+# 混入类别，地址
+# {
+#     "category": "原创",
+#     "origin": "http://www.321n.net",
+#     "title": "[11-20] 【龙网BT组】【美国动作灾难】【龙卷风】【BluRay-RMVB】【中文字幕】",
+#     "pathname": "/thread-256939-1-132.html",
+#     "href": "http://www.321n.net/thread-256939-1-132.html",
+#     "torrent_list": []
+# }
+def get_target_list(category, target_list):
     mixed_list = []
 
     for target in target_list:
@@ -122,6 +73,32 @@ def get_target_page_list(category, target_list):
         })
 
     return mixed_list
+
+
+# 获取 torrent 链接地址
+def get_target_torrent(target_page):
+    try:
+        req = requests.get(url=target_page['href'], headers=headers, timeout=3)
+
+        # 解析页面，获取种子下载地址
+        html = req.text
+        soup = BeautifulSoup(html.encode('gbk'), 'lxml')
+        torrent_page_list = soup.find('ignore_js_op').find_all('a')
+
+        torrent_list = []
+        for torrent in torrent_page_list:
+            href = target_page['origin'] + '/' + torrent.get('href')
+            torrent_list.append({
+                'href': href,
+                'title': torrent.contents[0].strip()
+            })
+
+        return torrent_list
+
+    except Exception as e:
+        print(e)
+        print('\nSomething wrong, retry...\n')
+        return get_target_torrent(target_page)
 
 
 if __name__ == '__main__':
@@ -147,4 +124,4 @@ if __name__ == '__main__':
     db = DbClient()
 
     for category in category_list:
-        search_page(category, 132)
+        search_page(category)
