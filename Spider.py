@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-import json
+import re
 from sys import stdout
 import requests
 from time import sleep
@@ -9,30 +9,37 @@ from DB.DbClient import DbClient
 
 
 # 搜索每页
-def search_page(category, page=1):
+def search_page(category, page=1, retry_times=0):
     try:
         req = requests.get(
             url=category['origin'] + category['pathname'].format(page),
             headers=headers,
-            timeout=3)
+            timeout=5)
 
         html = req.text
-        soup = BeautifulSoup(html.encode('gbk'), 'lxml')
+        soup = BeautifulSoup(html.encode('gbk', 'ignore'), 'lxml')
         pgae_link_list = soup.find(id='threadlisttableid').find_all(
             'a', class_='s')
 
-        # 得到每页中每一条数据的信息（标题、页面地址、分类、torrent）
-        target_list = get_target_list(category, pgae_link_list)
+        # 过滤掉没有附件的
+        filtered_pgae_link_list = []
+        for page_link in pgae_link_list:
+            if page_link.parent.find('img', alt='attachment') != None:
+                filtered_pgae_link_list.append(page_link)
 
+        # 得到每页中每一条数据的信息（标题、页面地址、分类、torrent）
+        target_list = get_target_list(category, filtered_pgae_link_list)
+
+        # 获取、存储
         target_list_len = len(target_list)
         for index, target in enumerate(target_list):
-            target['torrent_list'] = get_target_torrent(target)
-            db.put(target)
+            if db.exists(target['href']):
+                sleep(.1)
+            else:
+                target['torrent_list'] = get_target_torrent(target)
+                db.put(target)
 
-            stdout.write('\rpage {}: {}/{}'.format(page, index + 1,
-                                                   target_list_len))
-            stdout.flush
-            sleep(.2)
+            print('page {}: {}/{}'.format(page, index + 1, target_list_len))
 
         page_container = soup.find(id='fd_page_bottom')
         current_page_dom = page_container.find('strong', text=page)
@@ -45,8 +52,10 @@ def search_page(category, page=1):
             print(':)\nEverything done !')
     except Exception as e:
         print(e)
-        print('\nSomething wrong, retry...\n')
-        search_page(category, page)
+        retry_times = retry_times + 1
+        stdout.write('\rSomething wrong, retry...%d' % retry_times)
+        stdout.flush
+        search_page(category, page, retry_times)
 
 
 # 混入类别，地址
@@ -76,20 +85,31 @@ def get_target_list(category, target_list):
 
 
 # 获取 torrent 链接地址
-def get_target_torrent(target_page):
+def get_target_torrent(target_page, retry_times=0):
     try:
-        req = requests.get(url=target_page['href'], headers=headers, timeout=3)
+        req = requests.get(
+            url=target_page['href'], headers=headers, timeout=30)
 
         # 解析页面，获取种子下载地址
         html = req.text
-        soup = BeautifulSoup(html.encode('gbk'), 'lxml')
-        torrent_page_list = soup.find('ignore_js_op').find_all('a')
+
+        soup = BeautifulSoup(html.encode('gbk', 'ignore'), 'lxml')
+        wrapper = soup.find('ignore_js_op')
+        if wrapper != None:
+            torrent_page_list = soup.find('ignore_js_op').find_all('a')
+        else:
+            torrent_page_list = []
 
         torrent_list = []
         for torrent in torrent_page_list:
-            href = target_page['origin'] + '/' + torrent.get('href')
+            href = torrent.get('href')
+            isAttachment = re.search(r'forum\.php\?mod\=attachment', href)
+
+            if isAttachment == None:
+                href = get_torrent_by_url(target_page['origin'] + '/' + href)
+
             torrent_list.append({
-                'href': href,
+                'href': target_page['origin'] + '/' + href,
                 'title': torrent.contents[0].strip()
             })
 
@@ -97,8 +117,29 @@ def get_target_torrent(target_page):
 
     except Exception as e:
         print(e)
-        print('\nSomething wrong, retry...\n')
-        return get_target_torrent(target_page)
+        retry_times = retry_times + 1
+        stdout.write('\rSomething wrong, retry...%d' % retry_times)
+        stdout.flush
+        return get_target_torrent(target_page, retry_times)
+
+
+def get_torrent_by_url(url, retry_times=0):
+    try:
+        req = requests.get(url=url, headers=headers, timeout=5)
+
+        # 解析页面，获取种子下载地址
+        html = req.text
+        soup = BeautifulSoup(html.encode('gbk', 'ignore'), 'lxml')
+        link = soup.find(id='wp').find(
+            'a', href=re.compile(r'forum\.php\?mod\=attachment'))
+        return link.get('href')
+
+    except Exception as e:
+        print(e)
+        retry_times = retry_times + 1
+        stdout.write('\rSomething wrong, retry...%d' % retry_times)
+        stdout.flush
+        return get_torrent_by_url(url, retry_times)
 
 
 if __name__ == '__main__':
@@ -124,4 +165,4 @@ if __name__ == '__main__':
     db = DbClient()
 
     for category in category_list:
-        search_page(category)
+        search_page(category, 120)
