@@ -1,0 +1,1392 @@
+2018-11-09 11:48:28,302 INFO 44464 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 11:48:28,333 INFO 44464 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 11:48:28,333 INFO 44464 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 11:48:28,333 INFO 44464 [egg-multipart] stream mode enable
+2018-11-09 11:48:28,370 INFO 44464 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 11:48:28,372 INFO 44464 [egg-security] use csrf middleware
+2018-11-09 11:48:28,372 INFO 44464 [egg-security] use methodnoallow middleware
+2018-11-09 11:48:28,372 INFO 44464 [egg-security] use noopen middleware
+2018-11-09 11:48:28,373 INFO 44464 [egg-security] use nosniff middleware
+2018-11-09 11:48:28,373 INFO 44464 [egg-security] use xssProtection middleware
+2018-11-09 11:48:28,373 INFO 44464 [egg-security] use xframe middleware
+2018-11-09 11:48:28,373 INFO 44464 [egg-security] use dta middleware
+2018-11-09 11:48:28,373 INFO 44464 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 11:48:28,380 INFO 44464 [egg:core] dump config after load, 4ms
+2018-11-09 11:48:28,393 INFO 44464 [egg-watcher:application] watcher start success
+2018-11-09 11:48:28,398 INFO 44464 [egg:core] dump config after ready, 3ms
+2018-11-09 11:49:08,648 INFO 44471 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 11:49:08,680 INFO 44471 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 11:49:08,680 INFO 44471 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 11:49:08,681 INFO 44471 [egg-multipart] stream mode enable
+2018-11-09 11:49:08,715 INFO 44471 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 11:49:08,717 INFO 44471 [egg-security] use csrf middleware
+2018-11-09 11:49:08,717 INFO 44471 [egg-security] use methodnoallow middleware
+2018-11-09 11:49:08,718 INFO 44471 [egg-security] use noopen middleware
+2018-11-09 11:49:08,718 INFO 44471 [egg-security] use nosniff middleware
+2018-11-09 11:49:08,718 INFO 44471 [egg-security] use xssProtection middleware
+2018-11-09 11:49:08,718 INFO 44471 [egg-security] use xframe middleware
+2018-11-09 11:49:08,719 INFO 44471 [egg-security] use dta middleware
+2018-11-09 11:49:08,719 INFO 44471 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 11:49:08,725 INFO 44471 [egg:core] dump config after load, 4ms
+2018-11-09 11:49:08,741 INFO 44471 [egg-watcher:application] watcher start success
+2018-11-09 11:49:08,748 INFO 44471 [egg:core] dump config after ready, 4ms
+2018-11-09 11:49:18,180 INFO 44473 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 11:49:18,209 INFO 44473 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 11:49:18,209 INFO 44473 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 11:49:18,210 INFO 44473 [egg-multipart] stream mode enable
+2018-11-09 11:49:18,244 INFO 44473 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 11:49:18,246 INFO 44473 [egg-security] use csrf middleware
+2018-11-09 11:49:18,247 INFO 44473 [egg-security] use methodnoallow middleware
+2018-11-09 11:49:18,247 INFO 44473 [egg-security] use noopen middleware
+2018-11-09 11:49:18,248 INFO 44473 [egg-security] use nosniff middleware
+2018-11-09 11:49:18,248 INFO 44473 [egg-security] use xssProtection middleware
+2018-11-09 11:49:18,248 INFO 44473 [egg-security] use xframe middleware
+2018-11-09 11:49:18,248 INFO 44473 [egg-security] use dta middleware
+2018-11-09 11:49:18,248 INFO 44473 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 11:49:18,255 INFO 44473 [egg:core] dump config after load, 4ms
+2018-11-09 11:49:18,266 INFO 44473 [egg-watcher:application] watcher start success
+2018-11-09 11:49:18,270 INFO 44473 [egg:core] dump config after ready, 3ms
+2018-11-09 11:50:11,973 INFO 44763 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 11:50:12,003 INFO 44763 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 11:50:12,004 INFO 44763 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 11:50:12,004 INFO 44763 [egg-multipart] stream mode enable
+2018-11-09 11:50:12,039 INFO 44763 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 11:50:12,041 INFO 44763 [egg-security] use csrf middleware
+2018-11-09 11:50:12,041 INFO 44763 [egg-security] use methodnoallow middleware
+2018-11-09 11:50:12,041 INFO 44763 [egg-security] use noopen middleware
+2018-11-09 11:50:12,042 INFO 44763 [egg-security] use nosniff middleware
+2018-11-09 11:50:12,042 INFO 44763 [egg-security] use xssProtection middleware
+2018-11-09 11:50:12,042 INFO 44763 [egg-security] use xframe middleware
+2018-11-09 11:50:12,042 INFO 44763 [egg-security] use dta middleware
+2018-11-09 11:50:12,042 INFO 44763 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 11:50:12,049 INFO 44763 [egg:core] dump config after load, 4ms
+2018-11-09 11:50:12,063 INFO 44763 [egg-watcher:application] watcher start success
+2018-11-09 11:50:12,067 INFO 44763 [egg:core] dump config after ready, 3ms
+2018-11-09 12:31:10,668 WARN 44763 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-09 13:20:07,736 WARN 44763 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-09 13:51:54,565 WARN 44763 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-09 14:01:54,146 WARN 44763 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-11-09 14:01:54,147 WARN 44763 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-09 14:10:20,104 WARN 44763 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-09 14:22:31,343 INFO 44925 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 14:22:31,373 INFO 44925 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 14:22:31,373 INFO 44925 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 14:22:31,374 INFO 44925 [egg-multipart] stream mode enable
+2018-11-09 14:22:31,412 INFO 44925 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 14:22:31,413 INFO 44925 [egg-security] use csrf middleware
+2018-11-09 14:22:31,414 INFO 44925 [egg-security] use methodnoallow middleware
+2018-11-09 14:22:31,414 INFO 44925 [egg-security] use noopen middleware
+2018-11-09 14:22:31,414 INFO 44925 [egg-security] use nosniff middleware
+2018-11-09 14:22:31,415 INFO 44925 [egg-security] use xssProtection middleware
+2018-11-09 14:22:31,415 INFO 44925 [egg-security] use xframe middleware
+2018-11-09 14:22:31,415 INFO 44925 [egg-security] use dta middleware
+2018-11-09 14:22:31,415 INFO 44925 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 14:22:31,421 INFO 44925 [egg:core] dump config after load, 3ms
+2018-11-09 14:22:31,433 INFO 44925 [egg-watcher:application] watcher start success
+2018-11-09 14:22:31,437 INFO 44925 [egg:core] dump config after ready, 3ms
+2018-11-09 14:53:27,326 INFO 45298 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 14:53:27,356 INFO 45298 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 14:53:27,356 INFO 45298 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 14:53:27,356 INFO 45298 [egg-multipart] stream mode enable
+2018-11-09 14:53:27,391 INFO 45298 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 14:53:27,393 INFO 45298 [egg-security] use csrf middleware
+2018-11-09 14:53:27,393 INFO 45298 [egg-security] use methodnoallow middleware
+2018-11-09 14:53:27,394 INFO 45298 [egg-security] use noopen middleware
+2018-11-09 14:53:27,394 INFO 45298 [egg-security] use nosniff middleware
+2018-11-09 14:53:27,395 INFO 45298 [egg-security] use xssProtection middleware
+2018-11-09 14:53:27,395 INFO 45298 [egg-security] use xframe middleware
+2018-11-09 14:53:27,395 INFO 45298 [egg-security] use dta middleware
+2018-11-09 14:53:27,395 INFO 45298 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 14:53:27,401 INFO 45298 [egg:core] dump config after load, 3ms
+2018-11-09 14:53:27,415 INFO 45298 [egg-watcher:application] watcher start success
+2018-11-09 14:53:27,419 INFO 45298 [egg:core] dump config after ready, 3ms
+2018-11-09 15:39:52,405 INFO 45596 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 15:39:52,435 INFO 45596 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 15:39:52,435 INFO 45596 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 15:39:52,435 INFO 45596 [egg-multipart] stream mode enable
+2018-11-09 15:39:52,471 INFO 45596 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 15:39:52,473 INFO 45596 [egg-security] use csrf middleware
+2018-11-09 15:39:52,474 INFO 45596 [egg-security] use methodnoallow middleware
+2018-11-09 15:39:52,474 INFO 45596 [egg-security] use noopen middleware
+2018-11-09 15:39:52,474 INFO 45596 [egg-security] use nosniff middleware
+2018-11-09 15:39:52,475 INFO 45596 [egg-security] use xssProtection middleware
+2018-11-09 15:39:52,475 INFO 45596 [egg-security] use xframe middleware
+2018-11-09 15:39:52,475 INFO 45596 [egg-security] use dta middleware
+2018-11-09 15:39:52,475 INFO 45596 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 15:39:52,481 INFO 45596 [egg:core] dump config after load, 3ms
+2018-11-09 15:39:52,495 INFO 45596 [egg-watcher:application] watcher start success
+2018-11-09 15:39:52,499 INFO 45596 [egg:core] dump config after ready, 2ms
+2018-11-09 15:59:13,278 INFO 45684 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 15:59:13,308 INFO 45684 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 15:59:13,308 INFO 45684 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 15:59:13,308 INFO 45684 [egg-multipart] stream mode enable
+2018-11-09 15:59:13,344 INFO 45684 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 15:59:13,345 INFO 45684 [egg-security] use csrf middleware
+2018-11-09 15:59:13,346 INFO 45684 [egg-security] use methodnoallow middleware
+2018-11-09 15:59:13,346 INFO 45684 [egg-security] use noopen middleware
+2018-11-09 15:59:13,347 INFO 45684 [egg-security] use nosniff middleware
+2018-11-09 15:59:13,347 INFO 45684 [egg-security] use xssProtection middleware
+2018-11-09 15:59:13,347 INFO 45684 [egg-security] use xframe middleware
+2018-11-09 15:59:13,347 INFO 45684 [egg-security] use dta middleware
+2018-11-09 15:59:13,347 INFO 45684 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 15:59:13,353 INFO 45684 [egg:core] dump config after load, 3ms
+2018-11-09 15:59:13,368 INFO 45684 [egg-watcher:application] watcher start success
+2018-11-09 15:59:13,372 INFO 45684 [egg:core] dump config after ready, 2ms
+2018-11-09 15:59:21,971 INFO 45691 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 15:59:22,002 INFO 45691 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 15:59:22,002 INFO 45691 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 15:59:22,002 INFO 45691 [egg-multipart] stream mode enable
+2018-11-09 15:59:22,038 INFO 45691 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 15:59:22,040 INFO 45691 [egg-security] use csrf middleware
+2018-11-09 15:59:22,040 INFO 45691 [egg-security] use methodnoallow middleware
+2018-11-09 15:59:22,041 INFO 45691 [egg-security] use noopen middleware
+2018-11-09 15:59:22,041 INFO 45691 [egg-security] use nosniff middleware
+2018-11-09 15:59:22,041 INFO 45691 [egg-security] use xssProtection middleware
+2018-11-09 15:59:22,042 INFO 45691 [egg-security] use xframe middleware
+2018-11-09 15:59:22,042 INFO 45691 [egg-security] use dta middleware
+2018-11-09 15:59:22,042 INFO 45691 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 15:59:22,048 INFO 45691 [egg:core] dump config after load, 4ms
+2018-11-09 15:59:22,069 INFO 45691 [egg-watcher:application] watcher start success
+2018-11-09 15:59:22,073 INFO 45691 [egg:core] dump config after ready, 3ms
+2018-11-09 16:25:43,581 INFO 45749 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 16:25:43,611 INFO 45749 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 16:25:43,611 INFO 45749 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 16:25:43,612 INFO 45749 [egg-multipart] stream mode enable
+2018-11-09 16:25:43,647 INFO 45749 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 16:25:43,649 INFO 45749 [egg-security] use csrf middleware
+2018-11-09 16:25:43,650 INFO 45749 [egg-security] use methodnoallow middleware
+2018-11-09 16:25:43,650 INFO 45749 [egg-security] use noopen middleware
+2018-11-09 16:25:43,650 INFO 45749 [egg-security] use nosniff middleware
+2018-11-09 16:25:43,651 INFO 45749 [egg-security] use xssProtection middleware
+2018-11-09 16:25:43,651 INFO 45749 [egg-security] use xframe middleware
+2018-11-09 16:25:43,651 INFO 45749 [egg-security] use dta middleware
+2018-11-09 16:25:43,651 INFO 45749 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 16:25:43,657 INFO 45749 [egg:core] dump config after load, 3ms
+2018-11-09 16:25:43,672 INFO 45749 [egg-watcher:application] watcher start success
+2018-11-09 16:25:43,677 INFO 45749 [egg:core] dump config after ready, 3ms
+2018-11-09 16:26:14,544 INFO 45753 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 16:26:14,576 INFO 45753 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 16:26:14,576 INFO 45753 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 16:26:14,576 INFO 45753 [egg-multipart] stream mode enable
+2018-11-09 16:26:14,610 INFO 45753 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 16:26:14,612 INFO 45753 [egg-security] use csrf middleware
+2018-11-09 16:26:14,613 INFO 45753 [egg-security] use methodnoallow middleware
+2018-11-09 16:26:14,613 INFO 45753 [egg-security] use noopen middleware
+2018-11-09 16:26:14,613 INFO 45753 [egg-security] use nosniff middleware
+2018-11-09 16:26:14,614 INFO 45753 [egg-security] use xssProtection middleware
+2018-11-09 16:26:14,614 INFO 45753 [egg-security] use xframe middleware
+2018-11-09 16:26:14,614 INFO 45753 [egg-security] use dta middleware
+2018-11-09 16:26:14,614 INFO 45753 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 16:26:14,620 INFO 45753 [egg:core] dump config after load, 4ms
+2018-11-09 16:26:14,632 INFO 45753 [egg-watcher:application] watcher start success
+2018-11-09 16:26:14,636 INFO 45753 [egg:core] dump config after ready, 3ms
+2018-11-09 16:26:53,154 INFO 46037 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 16:26:53,183 INFO 46037 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 16:26:53,183 INFO 46037 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 16:26:53,184 INFO 46037 [egg-multipart] stream mode enable
+2018-11-09 16:26:53,219 INFO 46037 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 16:26:53,221 INFO 46037 [egg-security] use csrf middleware
+2018-11-09 16:26:53,222 INFO 46037 [egg-security] use methodnoallow middleware
+2018-11-09 16:26:53,222 INFO 46037 [egg-security] use noopen middleware
+2018-11-09 16:26:53,222 INFO 46037 [egg-security] use nosniff middleware
+2018-11-09 16:26:53,223 INFO 46037 [egg-security] use xssProtection middleware
+2018-11-09 16:26:53,223 INFO 46037 [egg-security] use xframe middleware
+2018-11-09 16:26:53,223 INFO 46037 [egg-security] use dta middleware
+2018-11-09 16:26:53,223 INFO 46037 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 16:26:53,229 INFO 46037 [egg:core] dump config after load, 3ms
+2018-11-09 16:26:53,244 INFO 46037 [egg-watcher:application] watcher start success
+2018-11-09 16:26:53,248 INFO 46037 [egg:core] dump config after ready, 2ms
+2018-11-09 17:39:45,040 INFO 46475 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 17:39:45,072 INFO 46475 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 17:39:45,072 INFO 46475 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 17:39:45,073 INFO 46475 [egg-multipart] stream mode enable
+2018-11-09 17:39:45,117 INFO 46475 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 17:39:45,119 INFO 46475 [egg-security] use csrf middleware
+2018-11-09 17:39:45,120 INFO 46475 [egg-security] use methodnoallow middleware
+2018-11-09 17:39:45,121 INFO 46475 [egg-security] use noopen middleware
+2018-11-09 17:39:45,122 INFO 46475 [egg-security] use nosniff middleware
+2018-11-09 17:39:45,122 INFO 46475 [egg-security] use xssProtection middleware
+2018-11-09 17:39:45,122 INFO 46475 [egg-security] use xframe middleware
+2018-11-09 17:39:45,123 INFO 46475 [egg-security] use dta middleware
+2018-11-09 17:39:45,123 INFO 46475 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 17:39:45,130 INFO 46475 [egg:core] dump config after load, 4ms
+2018-11-09 17:39:45,143 INFO 46475 [egg-watcher:application] watcher start success
+2018-11-09 17:39:45,148 INFO 46475 [egg:core] dump config after ready, 3ms
+2018-11-09 17:40:32,148 INFO 46481 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 17:40:32,183 INFO 46481 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 17:40:32,184 INFO 46481 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 17:40:32,184 INFO 46481 [egg-multipart] stream mode enable
+2018-11-09 17:40:32,221 INFO 46481 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 17:40:32,223 INFO 46481 [egg-security] use csrf middleware
+2018-11-09 17:40:32,223 INFO 46481 [egg-security] use methodnoallow middleware
+2018-11-09 17:40:32,223 INFO 46481 [egg-security] use noopen middleware
+2018-11-09 17:40:32,224 INFO 46481 [egg-security] use nosniff middleware
+2018-11-09 17:40:32,224 INFO 46481 [egg-security] use xssProtection middleware
+2018-11-09 17:40:32,225 INFO 46481 [egg-security] use xframe middleware
+2018-11-09 17:40:32,225 INFO 46481 [egg-security] use dta middleware
+2018-11-09 17:40:32,225 INFO 46481 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 17:40:32,232 INFO 46481 [egg:core] dump config after load, 4ms
+2018-11-09 17:40:32,244 INFO 46481 [egg-watcher:application] watcher start success
+2018-11-09 17:40:32,248 INFO 46481 [egg:core] dump config after ready, 3ms
+2018-11-09 17:41:26,859 INFO 46495 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 17:41:26,889 INFO 46495 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 17:41:26,889 INFO 46495 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 17:41:26,889 INFO 46495 [egg-multipart] stream mode enable
+2018-11-09 17:41:26,925 INFO 46495 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 17:41:26,927 INFO 46495 [egg-security] use csrf middleware
+2018-11-09 17:41:26,927 INFO 46495 [egg-security] use methodnoallow middleware
+2018-11-09 17:41:26,928 INFO 46495 [egg-security] use noopen middleware
+2018-11-09 17:41:26,928 INFO 46495 [egg-security] use nosniff middleware
+2018-11-09 17:41:26,928 INFO 46495 [egg-security] use xssProtection middleware
+2018-11-09 17:41:26,929 INFO 46495 [egg-security] use xframe middleware
+2018-11-09 17:41:26,929 INFO 46495 [egg-security] use dta middleware
+2018-11-09 17:41:26,929 INFO 46495 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 17:41:26,935 INFO 46495 [egg:core] dump config after load, 3ms
+2018-11-09 17:41:26,953 INFO 46495 [egg-watcher:application] watcher start success
+2018-11-09 17:41:26,957 INFO 46495 [egg:core] dump config after ready, 2ms
+2018-11-09 17:42:27,937 INFO 46500 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 17:42:27,967 INFO 46500 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 17:42:27,967 INFO 46500 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 17:42:27,968 INFO 46500 [egg-multipart] stream mode enable
+2018-11-09 17:42:28,014 INFO 46500 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 17:42:28,016 INFO 46500 [egg-security] use csrf middleware
+2018-11-09 17:42:28,016 INFO 46500 [egg-security] use methodnoallow middleware
+2018-11-09 17:42:28,017 INFO 46500 [egg-security] use noopen middleware
+2018-11-09 17:42:28,017 INFO 46500 [egg-security] use nosniff middleware
+2018-11-09 17:42:28,017 INFO 46500 [egg-security] use xssProtection middleware
+2018-11-09 17:42:28,018 INFO 46500 [egg-security] use xframe middleware
+2018-11-09 17:42:28,018 INFO 46500 [egg-security] use dta middleware
+2018-11-09 17:42:28,018 INFO 46500 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 17:42:28,025 INFO 46500 [egg:core] dump config after load, 4ms
+2018-11-09 17:42:28,036 INFO 46500 [egg-watcher:application] watcher start success
+2018-11-09 17:42:28,040 INFO 46500 [egg:core] dump config after ready, 3ms
+2018-11-09 17:42:29,418 INFO 46502 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 17:42:29,448 INFO 46502 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 17:42:29,448 INFO 46502 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 17:42:29,448 INFO 46502 [egg-multipart] stream mode enable
+2018-11-09 17:42:29,484 INFO 46502 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 17:42:29,486 INFO 46502 [egg-security] use csrf middleware
+2018-11-09 17:42:29,486 INFO 46502 [egg-security] use methodnoallow middleware
+2018-11-09 17:42:29,486 INFO 46502 [egg-security] use noopen middleware
+2018-11-09 17:42:29,487 INFO 46502 [egg-security] use nosniff middleware
+2018-11-09 17:42:29,487 INFO 46502 [egg-security] use xssProtection middleware
+2018-11-09 17:42:29,487 INFO 46502 [egg-security] use xframe middleware
+2018-11-09 17:42:29,487 INFO 46502 [egg-security] use dta middleware
+2018-11-09 17:42:29,487 INFO 46502 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 17:42:29,494 INFO 46502 [egg:core] dump config after load, 3ms
+2018-11-09 17:42:29,507 INFO 46502 [egg-watcher:application] watcher start success
+2018-11-09 17:42:29,511 INFO 46502 [egg:core] dump config after ready, 3ms
+2018-11-09 18:06:00,329 INFO 46597 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-09 18:06:00,359 INFO 46597 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-09 18:06:00,359 INFO 46597 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-09 18:06:00,359 INFO 46597 [egg-multipart] stream mode enable
+2018-11-09 18:06:00,691 INFO 46597 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-09 18:06:00,693 INFO 46597 [egg-security] use csrf middleware
+2018-11-09 18:06:00,694 INFO 46597 [egg-security] use methodnoallow middleware
+2018-11-09 18:06:00,694 INFO 46597 [egg-security] use noopen middleware
+2018-11-09 18:06:00,695 INFO 46597 [egg-security] use nosniff middleware
+2018-11-09 18:06:00,695 INFO 46597 [egg-security] use xssProtection middleware
+2018-11-09 18:06:00,695 INFO 46597 [egg-security] use xframe middleware
+2018-11-09 18:06:00,695 INFO 46597 [egg-security] use dta middleware
+2018-11-09 18:06:00,695 INFO 46597 [egg-security] compose 7 middlewares into one security middleware
+2018-11-09 18:06:00,702 INFO 46597 [egg:core] dump config after load, 4ms
+2018-11-09 18:06:00,716 INFO 46597 [egg:core] dump config after ready, 2ms
+2018-11-09 18:06:00,722 INFO 46597 [egg-watcher:application] watcher start success
+2018-11-12 09:59:04,191 INFO 46867 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 09:59:04,226 INFO 46867 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 09:59:04,226 INFO 46867 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 09:59:04,226 INFO 46867 [egg-multipart] stream mode enable
+2018-11-12 09:59:04,633 INFO 46867 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 09:59:04,635 INFO 46867 [egg-security] use csrf middleware
+2018-11-12 09:59:04,636 INFO 46867 [egg-security] use methodnoallow middleware
+2018-11-12 09:59:04,637 INFO 46867 [egg-security] use noopen middleware
+2018-11-12 09:59:04,638 INFO 46867 [egg-security] use nosniff middleware
+2018-11-12 09:59:04,638 INFO 46867 [egg-security] use xssProtection middleware
+2018-11-12 09:59:04,639 INFO 46867 [egg-security] use xframe middleware
+2018-11-12 09:59:04,639 INFO 46867 [egg-security] use dta middleware
+2018-11-12 09:59:04,639 INFO 46867 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 09:59:04,650 INFO 46867 [egg:core] dump config after load, 5ms
+2018-11-12 09:59:04,665 INFO 46867 [egg:core] dump config after ready, 3ms
+2018-11-12 09:59:04,671 INFO 46867 [egg-watcher:application] watcher start success
+2018-11-12 10:00:05,181 INFO 47422 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:00:05,210 INFO 47422 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:00:05,210 INFO 47422 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:00:05,210 INFO 47422 [egg-multipart] stream mode enable
+2018-11-12 10:00:05,401 INFO 47422 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:00:05,403 INFO 47422 [egg-security] use csrf middleware
+2018-11-12 10:00:05,403 INFO 47422 [egg-security] use methodnoallow middleware
+2018-11-12 10:00:05,403 INFO 47422 [egg-security] use noopen middleware
+2018-11-12 10:00:05,404 INFO 47422 [egg-security] use nosniff middleware
+2018-11-12 10:00:05,404 INFO 47422 [egg-security] use xssProtection middleware
+2018-11-12 10:00:05,404 INFO 47422 [egg-security] use xframe middleware
+2018-11-12 10:00:05,404 INFO 47422 [egg-security] use dta middleware
+2018-11-12 10:00:05,404 INFO 47422 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:00:05,411 INFO 47422 [egg:core] dump config after load, 4ms
+2018-11-12 10:00:05,426 INFO 47422 [egg:core] dump config after ready, 3ms
+2018-11-12 10:00:05,431 INFO 47422 [egg-watcher:application] watcher start success
+2018-11-12 10:04:04,055 INFO 47450 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:04:04,084 INFO 47450 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:04:04,084 INFO 47450 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:04:04,084 INFO 47450 [egg-multipart] stream mode enable
+2018-11-12 10:04:04,242 INFO 47450 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:04:04,281 INFO 47450 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:04:04,283 INFO 47450 [egg-security] use csrf middleware
+2018-11-12 10:04:04,283 INFO 47450 [egg-security] use methodnoallow middleware
+2018-11-12 10:04:04,284 INFO 47450 [egg-security] use noopen middleware
+2018-11-12 10:04:04,284 INFO 47450 [egg-security] use nosniff middleware
+2018-11-12 10:04:04,284 INFO 47450 [egg-security] use xssProtection middleware
+2018-11-12 10:04:04,285 INFO 47450 [egg-security] use xframe middleware
+2018-11-12 10:04:04,285 INFO 47450 [egg-security] use dta middleware
+2018-11-12 10:04:04,285 INFO 47450 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:04:04,292 INFO 47450 [egg:core] dump config after load, 4ms
+2018-11-12 10:04:04,294 INFO 47450 [egg-mongoose] starting...
+2018-11-12 10:04:04,309 INFO 47450 [egg:core] dump config after ready, 4ms
+2018-11-12 10:04:04,315 INFO 47450 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:04:04,316 INFO 47450 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:04:04,320 INFO 47450 [egg-watcher:application] watcher start success
+2018-11-12 10:05:00,230 INFO 47459 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:05:00,259 INFO 47459 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:05:00,259 INFO 47459 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:05:00,259 INFO 47459 [egg-multipart] stream mode enable
+2018-11-12 10:05:00,447 INFO 47459 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:05:00,449 INFO 47459 [egg-security] use csrf middleware
+2018-11-12 10:05:00,449 INFO 47459 [egg-security] use methodnoallow middleware
+2018-11-12 10:05:00,450 INFO 47459 [egg-security] use noopen middleware
+2018-11-12 10:05:00,450 INFO 47459 [egg-security] use nosniff middleware
+2018-11-12 10:05:00,450 INFO 47459 [egg-security] use xssProtection middleware
+2018-11-12 10:05:00,451 INFO 47459 [egg-security] use xframe middleware
+2018-11-12 10:05:00,451 INFO 47459 [egg-security] use dta middleware
+2018-11-12 10:05:00,451 INFO 47459 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:05:00,457 INFO 47459 [egg:core] dump config after load, 4ms
+2018-11-12 10:05:00,475 INFO 47459 [egg-watcher:application] watcher start success
+2018-11-12 10:05:00,480 INFO 47459 [egg:core] dump config after ready, 3ms
+2018-11-12 10:06:16,081 INFO 47463 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:06:16,110 INFO 47463 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:06:16,110 INFO 47463 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:06:16,110 INFO 47463 [egg-multipart] stream mode enable
+2018-11-12 10:06:16,286 INFO 47463 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:06:16,288 INFO 47463 [egg-security] use csrf middleware
+2018-11-12 10:06:16,288 INFO 47463 [egg-security] use methodnoallow middleware
+2018-11-12 10:06:16,289 INFO 47463 [egg-security] use noopen middleware
+2018-11-12 10:06:16,289 INFO 47463 [egg-security] use nosniff middleware
+2018-11-12 10:06:16,289 INFO 47463 [egg-security] use xssProtection middleware
+2018-11-12 10:06:16,289 INFO 47463 [egg-security] use xframe middleware
+2018-11-12 10:06:16,290 INFO 47463 [egg-security] use dta middleware
+2018-11-12 10:06:16,290 INFO 47463 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:06:16,296 INFO 47463 [egg:core] dump config after load, 3ms
+2018-11-12 10:06:16,312 INFO 47463 [egg-watcher:application] watcher start success
+2018-11-12 10:06:16,316 INFO 47463 [egg:core] dump config after ready, 3ms
+2018-11-12 10:07:04,968 INFO 47751 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:07:04,997 INFO 47751 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:07:04,997 INFO 47751 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:07:04,998 INFO 47751 [egg-multipart] stream mode enable
+2018-11-12 10:07:05,184 INFO 47751 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:07:05,186 INFO 47751 [egg-security] use csrf middleware
+2018-11-12 10:07:05,187 INFO 47751 [egg-security] use methodnoallow middleware
+2018-11-12 10:07:05,187 INFO 47751 [egg-security] use noopen middleware
+2018-11-12 10:07:05,187 INFO 47751 [egg-security] use nosniff middleware
+2018-11-12 10:07:05,187 INFO 47751 [egg-security] use xssProtection middleware
+2018-11-12 10:07:05,188 INFO 47751 [egg-security] use xframe middleware
+2018-11-12 10:07:05,188 INFO 47751 [egg-security] use dta middleware
+2018-11-12 10:07:05,188 INFO 47751 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:07:05,195 INFO 47751 [egg:core] dump config after load, 4ms
+2018-11-12 10:07:05,213 INFO 47751 [egg-watcher:application] watcher start success
+2018-11-12 10:07:05,217 INFO 47751 [egg:core] dump config after ready, 3ms
+2018-11-12 10:10:44,964 INFO 47756 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:10:44,996 INFO 47756 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:10:44,996 INFO 47756 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:10:44,997 INFO 47756 [egg-multipart] stream mode enable
+2018-11-12 10:10:45,184 INFO 47756 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:10:45,186 INFO 47756 [egg-security] use csrf middleware
+2018-11-12 10:10:45,186 INFO 47756 [egg-security] use methodnoallow middleware
+2018-11-12 10:10:45,186 INFO 47756 [egg-security] use noopen middleware
+2018-11-12 10:10:45,187 INFO 47756 [egg-security] use nosniff middleware
+2018-11-12 10:10:45,187 INFO 47756 [egg-security] use xssProtection middleware
+2018-11-12 10:10:45,187 INFO 47756 [egg-security] use xframe middleware
+2018-11-12 10:10:45,188 INFO 47756 [egg-security] use dta middleware
+2018-11-12 10:10:45,188 INFO 47756 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:10:45,197 INFO 47756 [egg:core] dump config after load, 4ms
+2018-11-12 10:10:45,214 INFO 47756 [egg-watcher:application] watcher start success
+2018-11-12 10:10:45,225 INFO 47756 [egg:core] dump config after ready, 7ms
+2018-11-12 10:12:18,316 INFO 47764 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:12:18,347 INFO 47764 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:12:18,347 INFO 47764 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:12:18,347 INFO 47764 [egg-multipart] stream mode enable
+2018-11-12 10:12:18,539 INFO 47764 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:12:18,541 INFO 47764 [egg-security] use csrf middleware
+2018-11-12 10:12:18,542 INFO 47764 [egg-security] use methodnoallow middleware
+2018-11-12 10:12:18,542 INFO 47764 [egg-security] use noopen middleware
+2018-11-12 10:12:18,542 INFO 47764 [egg-security] use nosniff middleware
+2018-11-12 10:12:18,543 INFO 47764 [egg-security] use xssProtection middleware
+2018-11-12 10:12:18,543 INFO 47764 [egg-security] use xframe middleware
+2018-11-12 10:12:18,543 INFO 47764 [egg-security] use dta middleware
+2018-11-12 10:12:18,543 INFO 47764 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:12:18,549 INFO 47764 [egg:core] dump config after load, 3ms
+2018-11-12 10:12:18,565 INFO 47764 [egg-watcher:application] watcher start success
+2018-11-12 10:12:18,569 INFO 47764 [egg:core] dump config after ready, 3ms
+2018-11-12 10:12:29,912 INFO 47772 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:12:29,940 INFO 47772 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:12:29,940 INFO 47772 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:12:29,941 INFO 47772 [egg-multipart] stream mode enable
+2018-11-12 10:12:30,129 INFO 47772 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:12:30,130 INFO 47772 [egg-security] use csrf middleware
+2018-11-12 10:12:30,131 INFO 47772 [egg-security] use methodnoallow middleware
+2018-11-12 10:12:30,131 INFO 47772 [egg-security] use noopen middleware
+2018-11-12 10:12:30,131 INFO 47772 [egg-security] use nosniff middleware
+2018-11-12 10:12:30,132 INFO 47772 [egg-security] use xssProtection middleware
+2018-11-12 10:12:30,132 INFO 47772 [egg-security] use xframe middleware
+2018-11-12 10:12:30,132 INFO 47772 [egg-security] use dta middleware
+2018-11-12 10:12:30,132 INFO 47772 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:12:30,139 INFO 47772 [egg:core] dump config after load, 4ms
+2018-11-12 10:12:30,158 INFO 47772 [egg-watcher:application] watcher start success
+2018-11-12 10:12:30,162 INFO 47772 [egg:core] dump config after ready, 3ms
+2018-11-12 10:14:18,712 INFO 47776 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:14:18,740 INFO 47776 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:14:18,740 INFO 47776 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:14:18,741 INFO 47776 [egg-multipart] stream mode enable
+2018-11-12 10:14:18,915 INFO 47776 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:14:18,917 INFO 47776 [egg-security] use csrf middleware
+2018-11-12 10:14:18,917 INFO 47776 [egg-security] use methodnoallow middleware
+2018-11-12 10:14:18,918 INFO 47776 [egg-security] use noopen middleware
+2018-11-12 10:14:18,918 INFO 47776 [egg-security] use nosniff middleware
+2018-11-12 10:14:18,918 INFO 47776 [egg-security] use xssProtection middleware
+2018-11-12 10:14:18,918 INFO 47776 [egg-security] use xframe middleware
+2018-11-12 10:14:18,918 INFO 47776 [egg-security] use dta middleware
+2018-11-12 10:14:18,919 INFO 47776 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:14:18,924 INFO 47776 [egg:core] dump config after load, 3ms
+2018-11-12 10:14:18,941 INFO 47776 [egg-watcher:application] watcher start success
+2018-11-12 10:14:18,946 INFO 47776 [egg:core] dump config after ready, 3ms
+2018-11-12 10:14:42,256 INFO 47778 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:14:42,284 INFO 47778 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:14:42,284 INFO 47778 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:14:42,285 INFO 47778 [egg-multipart] stream mode enable
+2018-11-12 10:14:42,462 INFO 47778 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:14:42,463 INFO 47778 [egg-security] use csrf middleware
+2018-11-12 10:14:42,464 INFO 47778 [egg-security] use methodnoallow middleware
+2018-11-12 10:14:42,464 INFO 47778 [egg-security] use noopen middleware
+2018-11-12 10:14:42,464 INFO 47778 [egg-security] use nosniff middleware
+2018-11-12 10:14:42,464 INFO 47778 [egg-security] use xssProtection middleware
+2018-11-12 10:14:42,464 INFO 47778 [egg-security] use xframe middleware
+2018-11-12 10:14:42,465 INFO 47778 [egg-security] use dta middleware
+2018-11-12 10:14:42,465 INFO 47778 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:14:42,471 INFO 47778 [egg:core] dump config after load, 4ms
+2018-11-12 10:14:42,487 INFO 47778 [egg-watcher:application] watcher start success
+2018-11-12 10:14:42,492 INFO 47778 [egg:core] dump config after ready, 4ms
+2018-11-12 10:14:55,078 INFO 47786 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:14:55,107 INFO 47786 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:14:55,107 INFO 47786 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:14:55,108 INFO 47786 [egg-multipart] stream mode enable
+2018-11-12 10:14:55,295 INFO 47786 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:14:55,297 INFO 47786 [egg-security] use csrf middleware
+2018-11-12 10:14:55,297 INFO 47786 [egg-security] use methodnoallow middleware
+2018-11-12 10:14:55,298 INFO 47786 [egg-security] use noopen middleware
+2018-11-12 10:14:55,298 INFO 47786 [egg-security] use nosniff middleware
+2018-11-12 10:14:55,298 INFO 47786 [egg-security] use xssProtection middleware
+2018-11-12 10:14:55,298 INFO 47786 [egg-security] use xframe middleware
+2018-11-12 10:14:55,299 INFO 47786 [egg-security] use dta middleware
+2018-11-12 10:14:55,299 INFO 47786 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:14:55,305 INFO 47786 [egg:core] dump config after load, 4ms
+2018-11-12 10:14:55,323 INFO 47786 [egg-watcher:application] watcher start success
+2018-11-12 10:14:55,327 INFO 47786 [egg:core] dump config after ready, 2ms
+2018-11-12 10:15:42,186 INFO 47790 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:15:42,216 INFO 47790 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:15:42,216 INFO 47790 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:15:42,216 INFO 47790 [egg-multipart] stream mode enable
+2018-11-12 10:15:42,407 INFO 47790 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:15:42,409 INFO 47790 [egg-security] use csrf middleware
+2018-11-12 10:15:42,409 INFO 47790 [egg-security] use methodnoallow middleware
+2018-11-12 10:15:42,410 INFO 47790 [egg-security] use noopen middleware
+2018-11-12 10:15:42,410 INFO 47790 [egg-security] use nosniff middleware
+2018-11-12 10:15:42,410 INFO 47790 [egg-security] use xssProtection middleware
+2018-11-12 10:15:42,411 INFO 47790 [egg-security] use xframe middleware
+2018-11-12 10:15:42,411 INFO 47790 [egg-security] use dta middleware
+2018-11-12 10:15:42,411 INFO 47790 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:15:42,417 INFO 47790 [egg:core] dump config after load, 3ms
+2018-11-12 10:15:42,434 INFO 47790 [egg-watcher:application] watcher start success
+2018-11-12 10:15:42,438 INFO 47790 [egg:core] dump config after ready, 3ms
+2018-11-12 10:15:51,297 INFO 47798 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:15:51,326 INFO 47798 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:15:51,326 INFO 47798 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:15:51,326 INFO 47798 [egg-multipart] stream mode enable
+2018-11-12 10:15:51,514 INFO 47798 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:15:51,516 INFO 47798 [egg-security] use csrf middleware
+2018-11-12 10:15:51,517 INFO 47798 [egg-security] use methodnoallow middleware
+2018-11-12 10:15:51,517 INFO 47798 [egg-security] use noopen middleware
+2018-11-12 10:15:51,517 INFO 47798 [egg-security] use nosniff middleware
+2018-11-12 10:15:51,518 INFO 47798 [egg-security] use xssProtection middleware
+2018-11-12 10:15:51,518 INFO 47798 [egg-security] use xframe middleware
+2018-11-12 10:15:51,518 INFO 47798 [egg-security] use dta middleware
+2018-11-12 10:15:51,518 INFO 47798 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:15:51,526 INFO 47798 [egg:core] dump config after load, 4ms
+2018-11-12 10:15:51,544 INFO 47798 [egg-watcher:application] watcher start success
+2018-11-12 10:15:51,549 INFO 47798 [egg:core] dump config after ready, 3ms
+2018-11-12 10:17:25,234 INFO 47802 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:17:25,263 INFO 47802 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:17:25,264 INFO 47802 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:17:25,264 INFO 47802 [egg-multipart] stream mode enable
+2018-11-12 10:17:25,454 INFO 47802 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:17:25,455 INFO 47802 [egg-security] use csrf middleware
+2018-11-12 10:17:25,456 INFO 47802 [egg-security] use methodnoallow middleware
+2018-11-12 10:17:25,456 INFO 47802 [egg-security] use noopen middleware
+2018-11-12 10:17:25,457 INFO 47802 [egg-security] use nosniff middleware
+2018-11-12 10:17:25,457 INFO 47802 [egg-security] use xssProtection middleware
+2018-11-12 10:17:25,457 INFO 47802 [egg-security] use xframe middleware
+2018-11-12 10:17:25,457 INFO 47802 [egg-security] use dta middleware
+2018-11-12 10:17:25,457 INFO 47802 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:17:25,465 INFO 47802 [egg:core] dump config after load, 4ms
+2018-11-12 10:17:25,481 INFO 47802 [egg-watcher:application] watcher start success
+2018-11-12 10:17:25,487 INFO 47802 [egg:core] dump config after ready, 4ms
+2018-11-12 10:17:51,939 INFO 47806 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:17:51,969 INFO 47806 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:17:51,969 INFO 47806 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:17:51,970 INFO 47806 [egg-multipart] stream mode enable
+2018-11-12 10:17:52,156 INFO 47806 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:17:52,158 INFO 47806 [egg-security] use csrf middleware
+2018-11-12 10:17:52,159 INFO 47806 [egg-security] use methodnoallow middleware
+2018-11-12 10:17:52,159 INFO 47806 [egg-security] use noopen middleware
+2018-11-12 10:17:52,160 INFO 47806 [egg-security] use nosniff middleware
+2018-11-12 10:17:52,160 INFO 47806 [egg-security] use xssProtection middleware
+2018-11-12 10:17:52,160 INFO 47806 [egg-security] use xframe middleware
+2018-11-12 10:17:52,160 INFO 47806 [egg-security] use dta middleware
+2018-11-12 10:17:52,161 INFO 47806 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:17:52,167 INFO 47806 [egg:core] dump config after load, 4ms
+2018-11-12 10:17:52,183 INFO 47806 [egg-watcher:application] watcher start success
+2018-11-12 10:17:52,188 INFO 47806 [egg:core] dump config after ready, 3ms
+2018-11-12 10:18:21,922 INFO 47823 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:18:21,951 INFO 47823 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:18:21,951 INFO 47823 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:18:21,952 INFO 47823 [egg-multipart] stream mode enable
+2018-11-12 10:18:22,150 INFO 47823 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:18:22,152 INFO 47823 [egg-security] use csrf middleware
+2018-11-12 10:18:22,153 INFO 47823 [egg-security] use methodnoallow middleware
+2018-11-12 10:18:22,153 INFO 47823 [egg-security] use noopen middleware
+2018-11-12 10:18:22,153 INFO 47823 [egg-security] use nosniff middleware
+2018-11-12 10:18:22,153 INFO 47823 [egg-security] use xssProtection middleware
+2018-11-12 10:18:22,154 INFO 47823 [egg-security] use xframe middleware
+2018-11-12 10:18:22,154 INFO 47823 [egg-security] use dta middleware
+2018-11-12 10:18:22,154 INFO 47823 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:18:22,160 INFO 47823 [egg:core] dump config after load, 3ms
+2018-11-12 10:18:22,179 INFO 47823 [egg-watcher:application] watcher start success
+2018-11-12 10:18:22,185 INFO 47823 [egg:core] dump config after ready, 5ms
+2018-11-12 10:20:04,380 INFO 47833 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:20:04,409 INFO 47833 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:20:04,409 INFO 47833 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:20:04,410 INFO 47833 [egg-multipart] stream mode enable
+2018-11-12 10:20:04,606 INFO 47833 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:20:04,608 INFO 47833 [egg-security] use csrf middleware
+2018-11-12 10:20:04,609 INFO 47833 [egg-security] use methodnoallow middleware
+2018-11-12 10:20:04,609 INFO 47833 [egg-security] use noopen middleware
+2018-11-12 10:20:04,609 INFO 47833 [egg-security] use nosniff middleware
+2018-11-12 10:20:04,610 INFO 47833 [egg-security] use xssProtection middleware
+2018-11-12 10:20:04,610 INFO 47833 [egg-security] use xframe middleware
+2018-11-12 10:20:04,610 INFO 47833 [egg-security] use dta middleware
+2018-11-12 10:20:04,610 INFO 47833 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:20:04,616 INFO 47833 [egg:core] dump config after load, 3ms
+2018-11-12 10:20:04,632 INFO 47833 [egg-watcher:application] watcher start success
+2018-11-12 10:20:04,636 INFO 47833 [egg:core] dump config after ready, 3ms
+2018-11-12 10:21:01,505 INFO 48121 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:21:01,535 INFO 48121 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:21:01,535 INFO 48121 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:21:01,535 INFO 48121 [egg-multipart] stream mode enable
+2018-11-12 10:21:01,721 INFO 48121 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:21:01,722 INFO 48121 [egg-security] use csrf middleware
+2018-11-12 10:21:01,723 INFO 48121 [egg-security] use methodnoallow middleware
+2018-11-12 10:21:01,723 INFO 48121 [egg-security] use noopen middleware
+2018-11-12 10:21:01,724 INFO 48121 [egg-security] use nosniff middleware
+2018-11-12 10:21:01,724 INFO 48121 [egg-security] use xssProtection middleware
+2018-11-12 10:21:01,724 INFO 48121 [egg-security] use xframe middleware
+2018-11-12 10:21:01,725 INFO 48121 [egg-security] use dta middleware
+2018-11-12 10:21:01,725 INFO 48121 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:21:01,731 INFO 48121 [egg:core] dump config after load, 3ms
+2018-11-12 10:21:01,750 INFO 48121 [egg-watcher:application] watcher start success
+2018-11-12 10:21:01,755 INFO 48121 [egg:core] dump config after ready, 3ms
+2018-11-12 10:21:24,575 INFO 48126 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:21:24,608 INFO 48126 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:21:24,608 INFO 48126 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:21:24,608 INFO 48126 [egg-multipart] stream mode enable
+2018-11-12 10:21:24,803 INFO 48126 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:21:24,804 INFO 48126 [egg-security] use csrf middleware
+2018-11-12 10:21:24,805 INFO 48126 [egg-security] use methodnoallow middleware
+2018-11-12 10:21:24,805 INFO 48126 [egg-security] use noopen middleware
+2018-11-12 10:21:24,806 INFO 48126 [egg-security] use nosniff middleware
+2018-11-12 10:21:24,806 INFO 48126 [egg-security] use xssProtection middleware
+2018-11-12 10:21:24,806 INFO 48126 [egg-security] use xframe middleware
+2018-11-12 10:21:24,807 INFO 48126 [egg-security] use dta middleware
+2018-11-12 10:21:24,807 INFO 48126 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:21:24,813 INFO 48126 [egg:core] dump config after load, 4ms
+2018-11-12 10:21:24,829 INFO 48126 [egg-watcher:application] watcher start success
+2018-11-12 10:21:24,833 INFO 48126 [egg:core] dump config after ready, 3ms
+2018-11-12 10:21:33,677 INFO 48134 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:21:33,707 INFO 48134 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:21:33,707 INFO 48134 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:21:33,707 INFO 48134 [egg-multipart] stream mode enable
+2018-11-12 10:21:33,906 INFO 48134 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:21:33,908 INFO 48134 [egg-security] use csrf middleware
+2018-11-12 10:21:33,909 INFO 48134 [egg-security] use methodnoallow middleware
+2018-11-12 10:21:33,909 INFO 48134 [egg-security] use noopen middleware
+2018-11-12 10:21:33,909 INFO 48134 [egg-security] use nosniff middleware
+2018-11-12 10:21:33,910 INFO 48134 [egg-security] use xssProtection middleware
+2018-11-12 10:21:33,910 INFO 48134 [egg-security] use xframe middleware
+2018-11-12 10:21:33,910 INFO 48134 [egg-security] use dta middleware
+2018-11-12 10:21:33,910 INFO 48134 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:21:33,916 INFO 48134 [egg:core] dump config after load, 3ms
+2018-11-12 10:21:33,934 INFO 48134 [egg-watcher:application] watcher start success
+2018-11-12 10:21:33,939 INFO 48134 [egg:core] dump config after ready, 3ms
+2018-11-12 10:25:16,348 INFO 48154 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:25:16,377 INFO 48154 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:25:16,377 INFO 48154 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:25:16,378 INFO 48154 [egg-multipart] stream mode enable
+2018-11-12 10:25:16,534 INFO 48154 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:25:16,574 INFO 48154 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:25:16,576 INFO 48154 [egg-security] use csrf middleware
+2018-11-12 10:25:16,576 INFO 48154 [egg-security] use methodnoallow middleware
+2018-11-12 10:25:16,576 INFO 48154 [egg-security] use noopen middleware
+2018-11-12 10:25:16,577 INFO 48154 [egg-security] use nosniff middleware
+2018-11-12 10:25:16,577 INFO 48154 [egg-security] use xssProtection middleware
+2018-11-12 10:25:16,577 INFO 48154 [egg-security] use xframe middleware
+2018-11-12 10:25:16,577 INFO 48154 [egg-security] use dta middleware
+2018-11-12 10:25:16,577 INFO 48154 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:25:16,584 INFO 48154 [egg:core] dump config after load, 4ms
+2018-11-12 10:25:16,585 INFO 48154 [egg-mongoose] starting...
+2018-11-12 10:25:16,605 INFO 48154 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:25:16,606 INFO 48154 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:25:16,607 INFO 48154 [egg-watcher:application] watcher start success
+2018-11-12 10:25:16,612 INFO 48154 [egg:core] dump config after ready, 2ms
+2018-11-12 10:29:26,146 INFO 48159 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:29:26,176 INFO 48159 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:29:26,176 INFO 48159 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:29:26,176 INFO 48159 [egg-multipart] stream mode enable
+2018-11-12 10:29:26,363 INFO 48159 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:29:26,364 INFO 48159 [egg-security] use csrf middleware
+2018-11-12 10:29:26,365 INFO 48159 [egg-security] use methodnoallow middleware
+2018-11-12 10:29:26,365 INFO 48159 [egg-security] use noopen middleware
+2018-11-12 10:29:26,365 INFO 48159 [egg-security] use nosniff middleware
+2018-11-12 10:29:26,366 INFO 48159 [egg-security] use xssProtection middleware
+2018-11-12 10:29:26,366 INFO 48159 [egg-security] use xframe middleware
+2018-11-12 10:29:26,366 INFO 48159 [egg-security] use dta middleware
+2018-11-12 10:29:26,366 INFO 48159 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:29:26,373 INFO 48159 [egg:core] dump config after load, 4ms
+2018-11-12 10:29:26,389 INFO 48159 [egg-watcher:application] watcher start success
+2018-11-12 10:29:26,394 INFO 48159 [egg:core] dump config after ready, 3ms
+2018-11-12 10:29:57,701 INFO 48163 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:29:57,729 INFO 48163 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:29:57,729 INFO 48163 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:29:57,730 INFO 48163 [egg-multipart] stream mode enable
+2018-11-12 10:29:57,916 INFO 48163 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:29:57,918 INFO 48163 [egg-security] use csrf middleware
+2018-11-12 10:29:57,918 INFO 48163 [egg-security] use methodnoallow middleware
+2018-11-12 10:29:57,919 INFO 48163 [egg-security] use noopen middleware
+2018-11-12 10:29:57,919 INFO 48163 [egg-security] use nosniff middleware
+2018-11-12 10:29:57,920 INFO 48163 [egg-security] use xssProtection middleware
+2018-11-12 10:29:57,920 INFO 48163 [egg-security] use xframe middleware
+2018-11-12 10:29:57,920 INFO 48163 [egg-security] use dta middleware
+2018-11-12 10:29:57,920 INFO 48163 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:29:57,926 INFO 48163 [egg:core] dump config after load, 3ms
+2018-11-12 10:29:57,938 INFO 48163 [egg:core] dump config after ready, 3ms
+2018-11-12 10:29:57,941 INFO 48163 [egg-watcher:application] watcher start success
+2018-11-12 10:30:11,320 INFO 48168 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:30:11,349 INFO 48168 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:30:11,349 INFO 48168 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:30:11,349 INFO 48168 [egg-multipart] stream mode enable
+2018-11-12 10:30:11,535 INFO 48168 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:30:11,537 INFO 48168 [egg-security] use csrf middleware
+2018-11-12 10:30:11,537 INFO 48168 [egg-security] use methodnoallow middleware
+2018-11-12 10:30:11,538 INFO 48168 [egg-security] use noopen middleware
+2018-11-12 10:30:11,538 INFO 48168 [egg-security] use nosniff middleware
+2018-11-12 10:30:11,538 INFO 48168 [egg-security] use xssProtection middleware
+2018-11-12 10:30:11,538 INFO 48168 [egg-security] use xframe middleware
+2018-11-12 10:30:11,539 INFO 48168 [egg-security] use dta middleware
+2018-11-12 10:30:11,539 INFO 48168 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:30:11,545 INFO 48168 [egg:core] dump config after load, 4ms
+2018-11-12 10:30:11,561 INFO 48168 [egg-watcher:application] watcher start success
+2018-11-12 10:30:11,566 INFO 48168 [egg:core] dump config after ready, 4ms
+2018-11-12 10:30:21,841 INFO 48172 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:30:21,870 INFO 48172 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:30:21,870 INFO 48172 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:30:21,871 INFO 48172 [egg-multipart] stream mode enable
+2018-11-12 10:30:22,072 INFO 48172 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:30:22,074 INFO 48172 [egg-security] use csrf middleware
+2018-11-12 10:30:22,075 INFO 48172 [egg-security] use methodnoallow middleware
+2018-11-12 10:30:22,075 INFO 48172 [egg-security] use noopen middleware
+2018-11-12 10:30:22,075 INFO 48172 [egg-security] use nosniff middleware
+2018-11-12 10:30:22,076 INFO 48172 [egg-security] use xssProtection middleware
+2018-11-12 10:30:22,076 INFO 48172 [egg-security] use xframe middleware
+2018-11-12 10:30:22,076 INFO 48172 [egg-security] use dta middleware
+2018-11-12 10:30:22,076 INFO 48172 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:30:22,085 INFO 48172 [egg:core] dump config after load, 4ms
+2018-11-12 10:30:22,102 INFO 48172 [egg:core] dump config after ready, 5ms
+2018-11-12 10:30:22,106 INFO 48172 [egg-watcher:application] watcher start success
+2018-11-12 10:31:00,820 INFO 48185 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:31:00,849 INFO 48185 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:31:00,849 INFO 48185 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:31:00,849 INFO 48185 [egg-multipart] stream mode enable
+2018-11-12 10:31:01,037 INFO 48185 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:31:01,039 INFO 48185 [egg-security] use csrf middleware
+2018-11-12 10:31:01,040 INFO 48185 [egg-security] use methodnoallow middleware
+2018-11-12 10:31:01,040 INFO 48185 [egg-security] use noopen middleware
+2018-11-12 10:31:01,040 INFO 48185 [egg-security] use nosniff middleware
+2018-11-12 10:31:01,041 INFO 48185 [egg-security] use xssProtection middleware
+2018-11-12 10:31:01,041 INFO 48185 [egg-security] use xframe middleware
+2018-11-12 10:31:01,041 INFO 48185 [egg-security] use dta middleware
+2018-11-12 10:31:01,041 INFO 48185 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:31:01,047 INFO 48185 [egg:core] dump config after load, 3ms
+2018-11-12 10:31:01,062 INFO 48185 [egg:core] dump config after ready, 3ms
+2018-11-12 10:31:01,067 INFO 48185 [egg-watcher:application] watcher start success
+2018-11-12 10:31:34,120 INFO 48195 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:31:34,149 INFO 48195 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:31:34,149 INFO 48195 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:31:34,149 INFO 48195 [egg-multipart] stream mode enable
+2018-11-12 10:31:34,336 INFO 48195 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:31:34,338 INFO 48195 [egg-security] use csrf middleware
+2018-11-12 10:31:34,338 INFO 48195 [egg-security] use methodnoallow middleware
+2018-11-12 10:31:34,338 INFO 48195 [egg-security] use noopen middleware
+2018-11-12 10:31:34,339 INFO 48195 [egg-security] use nosniff middleware
+2018-11-12 10:31:34,339 INFO 48195 [egg-security] use xssProtection middleware
+2018-11-12 10:31:34,339 INFO 48195 [egg-security] use xframe middleware
+2018-11-12 10:31:34,339 INFO 48195 [egg-security] use dta middleware
+2018-11-12 10:31:34,340 INFO 48195 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:31:34,346 INFO 48195 [egg:core] dump config after load, 4ms
+2018-11-12 10:31:34,361 INFO 48195 [egg:core] dump config after ready, 3ms
+2018-11-12 10:31:34,366 INFO 48195 [egg-watcher:application] watcher start success
+2018-11-12 10:32:14,065 INFO 48203 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:32:14,095 INFO 48203 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:32:14,095 INFO 48203 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:32:14,095 INFO 48203 [egg-multipart] stream mode enable
+2018-11-12 10:32:14,250 INFO 48203 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:32:14,290 INFO 48203 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:32:14,291 INFO 48203 [egg-security] use csrf middleware
+2018-11-12 10:32:14,292 INFO 48203 [egg-security] use methodnoallow middleware
+2018-11-12 10:32:14,292 INFO 48203 [egg-security] use noopen middleware
+2018-11-12 10:32:14,292 INFO 48203 [egg-security] use nosniff middleware
+2018-11-12 10:32:14,293 INFO 48203 [egg-security] use xssProtection middleware
+2018-11-12 10:32:14,293 INFO 48203 [egg-security] use xframe middleware
+2018-11-12 10:32:14,293 INFO 48203 [egg-security] use dta middleware
+2018-11-12 10:32:14,293 INFO 48203 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:32:14,299 INFO 48203 [egg:core] dump config after load, 3ms
+2018-11-12 10:32:14,301 INFO 48203 [egg-mongoose] starting...
+2018-11-12 10:32:14,320 INFO 48203 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:32:14,321 INFO 48203 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:32:14,323 INFO 48203 [egg-watcher:application] watcher start success
+2018-11-12 10:32:14,327 INFO 48203 [egg:core] dump config after ready, 3ms
+2018-11-12 10:34:24,212 INFO 48209 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:34:24,241 INFO 48209 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:34:24,241 INFO 48209 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:34:24,241 INFO 48209 [egg-multipart] stream mode enable
+2018-11-12 10:34:24,395 INFO 48209 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:34:24,435 INFO 48209 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:34:24,437 INFO 48209 [egg-security] use csrf middleware
+2018-11-12 10:34:24,438 INFO 48209 [egg-security] use methodnoallow middleware
+2018-11-12 10:34:24,438 INFO 48209 [egg-security] use noopen middleware
+2018-11-12 10:34:24,438 INFO 48209 [egg-security] use nosniff middleware
+2018-11-12 10:34:24,438 INFO 48209 [egg-security] use xssProtection middleware
+2018-11-12 10:34:24,439 INFO 48209 [egg-security] use xframe middleware
+2018-11-12 10:34:24,439 INFO 48209 [egg-security] use dta middleware
+2018-11-12 10:34:24,439 INFO 48209 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:34:24,447 INFO 48209 [egg:core] dump config after load, 3ms
+2018-11-12 10:34:24,448 INFO 48209 [egg-mongoose] starting...
+2018-11-12 10:34:24,467 INFO 48209 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:34:24,468 INFO 48209 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:34:24,469 INFO 48209 [egg-watcher:application] watcher start success
+2018-11-12 10:34:24,476 INFO 48209 [egg:core] dump config after ready, 5ms
+2018-11-12 10:34:30,709 INFO 48213 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:34:30,738 INFO 48213 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:34:30,738 INFO 48213 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:34:30,738 INFO 48213 [egg-multipart] stream mode enable
+2018-11-12 10:34:30,897 INFO 48213 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:34:30,937 INFO 48213 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:34:30,939 INFO 48213 [egg-security] use csrf middleware
+2018-11-12 10:34:30,939 INFO 48213 [egg-security] use methodnoallow middleware
+2018-11-12 10:34:30,939 INFO 48213 [egg-security] use noopen middleware
+2018-11-12 10:34:30,940 INFO 48213 [egg-security] use nosniff middleware
+2018-11-12 10:34:30,940 INFO 48213 [egg-security] use xssProtection middleware
+2018-11-12 10:34:30,940 INFO 48213 [egg-security] use xframe middleware
+2018-11-12 10:34:30,940 INFO 48213 [egg-security] use dta middleware
+2018-11-12 10:34:30,940 INFO 48213 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:34:30,948 INFO 48213 [egg:core] dump config after load, 4ms
+2018-11-12 10:34:30,950 INFO 48213 [egg-mongoose] starting...
+2018-11-12 10:34:30,970 INFO 48213 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:34:30,971 INFO 48213 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:34:30,973 INFO 48213 [egg-watcher:application] watcher start success
+2018-11-12 10:34:30,979 INFO 48213 [egg:core] dump config after ready, 5ms
+2018-11-12 10:34:49,027 INFO 48218 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:34:49,056 INFO 48218 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:34:49,056 INFO 48218 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:34:49,057 INFO 48218 [egg-multipart] stream mode enable
+2018-11-12 10:34:49,215 INFO 48218 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:34:49,254 INFO 48218 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:34:49,256 INFO 48218 [egg-security] use csrf middleware
+2018-11-12 10:34:49,256 INFO 48218 [egg-security] use methodnoallow middleware
+2018-11-12 10:34:49,257 INFO 48218 [egg-security] use noopen middleware
+2018-11-12 10:34:49,257 INFO 48218 [egg-security] use nosniff middleware
+2018-11-12 10:34:49,257 INFO 48218 [egg-security] use xssProtection middleware
+2018-11-12 10:34:49,257 INFO 48218 [egg-security] use xframe middleware
+2018-11-12 10:34:49,258 INFO 48218 [egg-security] use dta middleware
+2018-11-12 10:34:49,258 INFO 48218 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:34:49,265 INFO 48218 [egg:core] dump config after load, 3ms
+2018-11-12 10:34:49,267 INFO 48218 [egg-mongoose] starting...
+2018-11-12 10:34:49,286 INFO 48218 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:34:49,287 INFO 48218 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:34:49,288 INFO 48218 [egg-watcher:application] watcher start success
+2018-11-12 10:34:49,295 INFO 48218 [egg:core] dump config after ready, 5ms
+2018-11-12 10:34:58,515 INFO 48226 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:34:58,544 INFO 48226 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:34:58,544 INFO 48226 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:34:58,545 INFO 48226 [egg-multipart] stream mode enable
+2018-11-12 10:34:58,699 INFO 48226 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:34:58,738 INFO 48226 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:34:58,739 INFO 48226 [egg-security] use csrf middleware
+2018-11-12 10:34:58,740 INFO 48226 [egg-security] use methodnoallow middleware
+2018-11-12 10:34:58,740 INFO 48226 [egg-security] use noopen middleware
+2018-11-12 10:34:58,740 INFO 48226 [egg-security] use nosniff middleware
+2018-11-12 10:34:58,741 INFO 48226 [egg-security] use xssProtection middleware
+2018-11-12 10:34:58,741 INFO 48226 [egg-security] use xframe middleware
+2018-11-12 10:34:58,741 INFO 48226 [egg-security] use dta middleware
+2018-11-12 10:34:58,741 INFO 48226 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:34:58,748 INFO 48226 [egg:core] dump config after load, 3ms
+2018-11-12 10:34:58,750 INFO 48226 [egg-mongoose] starting...
+2018-11-12 10:34:58,769 INFO 48226 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:34:58,770 INFO 48226 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:34:58,771 INFO 48226 [egg-watcher:application] watcher start success
+2018-11-12 10:34:58,778 INFO 48226 [egg:core] dump config after ready, 5ms
+2018-11-12 10:35:49,292 INFO 48230 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:35:49,323 INFO 48230 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:35:49,323 INFO 48230 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:35:49,323 INFO 48230 [egg-multipart] stream mode enable
+2018-11-12 10:35:49,482 INFO 48230 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:35:49,522 INFO 48230 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:35:49,523 INFO 48230 [egg-security] use csrf middleware
+2018-11-12 10:35:49,524 INFO 48230 [egg-security] use methodnoallow middleware
+2018-11-12 10:35:49,524 INFO 48230 [egg-security] use noopen middleware
+2018-11-12 10:35:49,524 INFO 48230 [egg-security] use nosniff middleware
+2018-11-12 10:35:49,525 INFO 48230 [egg-security] use xssProtection middleware
+2018-11-12 10:35:49,525 INFO 48230 [egg-security] use xframe middleware
+2018-11-12 10:35:49,525 INFO 48230 [egg-security] use dta middleware
+2018-11-12 10:35:49,525 INFO 48230 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:35:49,532 INFO 48230 [egg:core] dump config after load, 4ms
+2018-11-12 10:35:49,534 INFO 48230 [egg-mongoose] starting...
+2018-11-12 10:35:49,552 INFO 48230 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:35:49,553 INFO 48230 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:35:49,555 INFO 48230 [egg-watcher:application] watcher start success
+2018-11-12 10:35:49,560 INFO 48230 [egg:core] dump config after ready, 4ms
+2018-11-12 10:36:07,131 INFO 48241 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:36:07,160 INFO 48241 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:36:07,160 INFO 48241 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:36:07,161 INFO 48241 [egg-multipart] stream mode enable
+2018-11-12 10:36:07,316 INFO 48241 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:36:07,356 INFO 48241 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:36:07,358 INFO 48241 [egg-security] use csrf middleware
+2018-11-12 10:36:07,358 INFO 48241 [egg-security] use methodnoallow middleware
+2018-11-12 10:36:07,358 INFO 48241 [egg-security] use noopen middleware
+2018-11-12 10:36:07,359 INFO 48241 [egg-security] use nosniff middleware
+2018-11-12 10:36:07,359 INFO 48241 [egg-security] use xssProtection middleware
+2018-11-12 10:36:07,359 INFO 48241 [egg-security] use xframe middleware
+2018-11-12 10:36:07,359 INFO 48241 [egg-security] use dta middleware
+2018-11-12 10:36:07,359 INFO 48241 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:36:07,366 INFO 48241 [egg:core] dump config after load, 4ms
+2018-11-12 10:36:07,368 INFO 48241 [egg-mongoose] starting...
+2018-11-12 10:36:07,390 INFO 48241 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:36:07,391 INFO 48241 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:36:07,393 INFO 48241 [egg-watcher:application] watcher start success
+2018-11-12 10:36:07,396 INFO 48241 [egg:core] dump config after ready, 2ms
+2018-11-12 10:37:27,348 INFO 48244 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:37:27,376 INFO 48244 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:37:27,376 INFO 48244 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:37:27,376 INFO 48244 [egg-multipart] stream mode enable
+2018-11-12 10:37:27,522 INFO 48244 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:37:27,557 INFO 48244 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:37:27,559 INFO 48244 [egg-security] use csrf middleware
+2018-11-12 10:37:27,559 INFO 48244 [egg-security] use methodnoallow middleware
+2018-11-12 10:37:27,559 INFO 48244 [egg-security] use noopen middleware
+2018-11-12 10:37:27,560 INFO 48244 [egg-security] use nosniff middleware
+2018-11-12 10:37:27,560 INFO 48244 [egg-security] use xssProtection middleware
+2018-11-12 10:37:27,560 INFO 48244 [egg-security] use xframe middleware
+2018-11-12 10:37:27,560 INFO 48244 [egg-security] use dta middleware
+2018-11-12 10:37:27,560 INFO 48244 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:37:27,567 INFO 48244 [egg:core] dump config after load, 3ms
+2018-11-12 10:37:27,568 INFO 48244 [egg-mongoose] starting...
+2018-11-12 10:37:27,588 INFO 48244 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:37:27,589 INFO 48244 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:37:27,591 INFO 48244 [egg-watcher:application] watcher start success
+2018-11-12 10:37:27,595 INFO 48244 [egg:core] dump config after ready, 3ms
+2018-11-12 10:37:41,664 INFO 48252 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:37:41,694 INFO 48252 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:37:41,694 INFO 48252 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:37:41,694 INFO 48252 [egg-multipart] stream mode enable
+2018-11-12 10:37:41,850 INFO 48252 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:37:41,890 INFO 48252 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:37:41,891 INFO 48252 [egg-security] use csrf middleware
+2018-11-12 10:37:41,892 INFO 48252 [egg-security] use methodnoallow middleware
+2018-11-12 10:37:41,892 INFO 48252 [egg-security] use noopen middleware
+2018-11-12 10:37:41,892 INFO 48252 [egg-security] use nosniff middleware
+2018-11-12 10:37:41,893 INFO 48252 [egg-security] use xssProtection middleware
+2018-11-12 10:37:41,893 INFO 48252 [egg-security] use xframe middleware
+2018-11-12 10:37:41,893 INFO 48252 [egg-security] use dta middleware
+2018-11-12 10:37:41,893 INFO 48252 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:37:41,899 INFO 48252 [egg:core] dump config after load, 3ms
+2018-11-12 10:37:41,901 INFO 48252 [egg-mongoose] starting...
+2018-11-12 10:37:41,921 INFO 48252 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:37:41,922 INFO 48252 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:37:41,924 INFO 48252 [egg-watcher:application] watcher start success
+2018-11-12 10:37:41,928 INFO 48252 [egg:core] dump config after ready, 3ms
+2018-11-12 10:38:00,695 INFO 48256 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:38:00,723 INFO 48256 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:38:00,723 INFO 48256 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:38:00,724 INFO 48256 [egg-multipart] stream mode enable
+2018-11-12 10:38:00,880 INFO 48256 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:38:00,919 INFO 48256 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:38:00,921 INFO 48256 [egg-security] use csrf middleware
+2018-11-12 10:38:00,922 INFO 48256 [egg-security] use methodnoallow middleware
+2018-11-12 10:38:00,922 INFO 48256 [egg-security] use noopen middleware
+2018-11-12 10:38:00,922 INFO 48256 [egg-security] use nosniff middleware
+2018-11-12 10:38:00,922 INFO 48256 [egg-security] use xssProtection middleware
+2018-11-12 10:38:00,923 INFO 48256 [egg-security] use xframe middleware
+2018-11-12 10:38:00,923 INFO 48256 [egg-security] use dta middleware
+2018-11-12 10:38:00,923 INFO 48256 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:38:00,930 INFO 48256 [egg:core] dump config after load, 3ms
+2018-11-12 10:38:00,932 INFO 48256 [egg-mongoose] starting...
+2018-11-12 10:38:00,952 INFO 48256 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:38:00,952 INFO 48256 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:38:00,954 INFO 48256 [egg-watcher:application] watcher start success
+2018-11-12 10:38:00,960 INFO 48256 [egg:core] dump config after ready, 4ms
+2018-11-12 10:38:53,562 INFO 48261 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:38:53,592 INFO 48261 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:38:53,592 INFO 48261 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:38:53,592 INFO 48261 [egg-multipart] stream mode enable
+2018-11-12 10:38:53,751 INFO 48261 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:38:53,791 INFO 48261 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:38:53,793 INFO 48261 [egg-security] use csrf middleware
+2018-11-12 10:38:53,794 INFO 48261 [egg-security] use methodnoallow middleware
+2018-11-12 10:38:53,794 INFO 48261 [egg-security] use noopen middleware
+2018-11-12 10:38:53,795 INFO 48261 [egg-security] use nosniff middleware
+2018-11-12 10:38:53,795 INFO 48261 [egg-security] use xssProtection middleware
+2018-11-12 10:38:53,795 INFO 48261 [egg-security] use xframe middleware
+2018-11-12 10:38:53,796 INFO 48261 [egg-security] use dta middleware
+2018-11-12 10:38:53,796 INFO 48261 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:38:53,803 INFO 48261 [egg:core] dump config after load, 4ms
+2018-11-12 10:38:53,805 INFO 48261 [egg-mongoose] starting...
+2018-11-12 10:38:53,823 INFO 48261 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:38:53,824 INFO 48261 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:38:53,826 INFO 48261 [egg-watcher:application] watcher start success
+2018-11-12 10:38:53,832 INFO 48261 [egg:core] dump config after ready, 5ms
+2018-11-12 10:40:07,352 INFO 48272 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:40:07,382 INFO 48272 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:40:07,382 INFO 48272 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:40:07,382 INFO 48272 [egg-multipart] stream mode enable
+2018-11-12 10:40:07,537 INFO 48272 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:40:07,578 INFO 48272 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:40:07,580 INFO 48272 [egg-security] use csrf middleware
+2018-11-12 10:40:07,581 INFO 48272 [egg-security] use methodnoallow middleware
+2018-11-12 10:40:07,581 INFO 48272 [egg-security] use noopen middleware
+2018-11-12 10:40:07,581 INFO 48272 [egg-security] use nosniff middleware
+2018-11-12 10:40:07,581 INFO 48272 [egg-security] use xssProtection middleware
+2018-11-12 10:40:07,582 INFO 48272 [egg-security] use xframe middleware
+2018-11-12 10:40:07,582 INFO 48272 [egg-security] use dta middleware
+2018-11-12 10:40:07,582 INFO 48272 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:40:07,588 INFO 48272 [egg:core] dump config after load, 3ms
+2018-11-12 10:40:07,590 INFO 48272 [egg-mongoose] starting...
+2018-11-12 10:40:07,610 INFO 48272 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:40:07,611 INFO 48272 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:40:07,613 INFO 48272 [egg-watcher:application] watcher start success
+2018-11-12 10:40:07,619 INFO 48272 [egg:core] dump config after ready, 5ms
+2018-11-12 10:42:15,494 INFO 48293 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:42:15,522 INFO 48293 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:42:15,522 INFO 48293 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:42:15,522 INFO 48293 [egg-multipart] stream mode enable
+2018-11-12 10:42:15,675 INFO 48293 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:42:15,714 INFO 48293 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:42:15,716 INFO 48293 [egg-security] use csrf middleware
+2018-11-12 10:42:15,716 INFO 48293 [egg-security] use methodnoallow middleware
+2018-11-12 10:42:15,716 INFO 48293 [egg-security] use noopen middleware
+2018-11-12 10:42:15,717 INFO 48293 [egg-security] use nosniff middleware
+2018-11-12 10:42:15,717 INFO 48293 [egg-security] use xssProtection middleware
+2018-11-12 10:42:15,717 INFO 48293 [egg-security] use xframe middleware
+2018-11-12 10:42:15,717 INFO 48293 [egg-security] use dta middleware
+2018-11-12 10:42:15,717 INFO 48293 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:42:15,723 INFO 48293 [egg:core] dump config after load, 3ms
+2018-11-12 10:42:15,725 INFO 48293 [egg-mongoose] starting...
+2018-11-12 10:42:15,744 INFO 48293 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:42:15,745 INFO 48293 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:42:15,747 INFO 48293 [egg-watcher:application] watcher start success
+2018-11-12 10:42:15,753 INFO 48293 [egg:core] dump config after ready, 5ms
+2018-11-12 10:43:24,952 INFO 48302 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:43:25,002 INFO 48302 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:43:25,002 INFO 48302 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:43:25,003 INFO 48302 [egg-multipart] stream mode enable
+2018-11-12 10:43:25,183 INFO 48302 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:43:25,224 INFO 48302 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:43:25,227 INFO 48302 [egg-security] use csrf middleware
+2018-11-12 10:43:25,228 INFO 48302 [egg-security] use methodnoallow middleware
+2018-11-12 10:43:25,229 INFO 48302 [egg-security] use noopen middleware
+2018-11-12 10:43:25,230 INFO 48302 [egg-security] use nosniff middleware
+2018-11-12 10:43:25,230 INFO 48302 [egg-security] use xssProtection middleware
+2018-11-12 10:43:25,230 INFO 48302 [egg-security] use xframe middleware
+2018-11-12 10:43:25,230 INFO 48302 [egg-security] use dta middleware
+2018-11-12 10:43:25,230 INFO 48302 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:43:25,237 INFO 48302 [egg:core] dump config after load, 3ms
+2018-11-12 10:43:25,239 INFO 48302 [egg-mongoose] starting...
+2018-11-12 10:43:25,257 INFO 48302 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:43:25,258 INFO 48302 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:43:25,260 INFO 48302 [egg-watcher:application] watcher start success
+2018-11-12 10:43:25,266 INFO 48302 [egg:core] dump config after ready, 5ms
+2018-11-12 10:45:08,892 INFO 48306 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:45:08,921 INFO 48306 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:45:08,921 INFO 48306 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:45:08,921 INFO 48306 [egg-multipart] stream mode enable
+2018-11-12 10:45:09,082 INFO 48306 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:45:09,122 INFO 48306 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:45:09,124 INFO 48306 [egg-security] use csrf middleware
+2018-11-12 10:45:09,125 INFO 48306 [egg-security] use methodnoallow middleware
+2018-11-12 10:45:09,125 INFO 48306 [egg-security] use noopen middleware
+2018-11-12 10:45:09,125 INFO 48306 [egg-security] use nosniff middleware
+2018-11-12 10:45:09,126 INFO 48306 [egg-security] use xssProtection middleware
+2018-11-12 10:45:09,126 INFO 48306 [egg-security] use xframe middleware
+2018-11-12 10:45:09,126 INFO 48306 [egg-security] use dta middleware
+2018-11-12 10:45:09,126 INFO 48306 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:45:09,133 INFO 48306 [egg:core] dump config after load, 3ms
+2018-11-12 10:45:09,135 INFO 48306 [egg-mongoose] starting...
+2018-11-12 10:45:09,153 INFO 48306 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:45:09,154 INFO 48306 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:45:09,156 INFO 48306 [egg-watcher:application] watcher start success
+2018-11-12 10:45:09,163 INFO 48306 [egg:core] dump config after ready, 5ms
+2018-11-12 10:52:47,567 INFO 48347 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:52:47,596 INFO 48347 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:52:47,596 INFO 48347 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:52:47,596 INFO 48347 [egg-multipart] stream mode enable
+2018-11-12 10:52:47,751 INFO 48347 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:52:47,790 INFO 48347 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:52:47,792 INFO 48347 [egg-security] use csrf middleware
+2018-11-12 10:52:47,793 INFO 48347 [egg-security] use methodnoallow middleware
+2018-11-12 10:52:47,793 INFO 48347 [egg-security] use noopen middleware
+2018-11-12 10:52:47,793 INFO 48347 [egg-security] use nosniff middleware
+2018-11-12 10:52:47,794 INFO 48347 [egg-security] use xssProtection middleware
+2018-11-12 10:52:47,794 INFO 48347 [egg-security] use xframe middleware
+2018-11-12 10:52:47,794 INFO 48347 [egg-security] use dta middleware
+2018-11-12 10:52:47,794 INFO 48347 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:52:47,801 INFO 48347 [egg:core] dump config after load, 3ms
+2018-11-12 10:52:47,803 INFO 48347 [egg-mongoose] starting...
+2018-11-12 10:52:47,821 INFO 48347 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:52:47,822 INFO 48347 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:52:47,824 INFO 48347 [egg-watcher:application] watcher start success
+2018-11-12 10:52:47,831 INFO 48347 [egg:core] dump config after ready, 5ms
+2018-11-12 10:53:07,311 INFO 48349 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:53:07,359 INFO 48349 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:53:07,359 INFO 48349 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:53:07,359 INFO 48349 [egg-multipart] stream mode enable
+2018-11-12 10:53:07,530 INFO 48349 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:53:07,571 INFO 48349 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:53:07,573 INFO 48349 [egg-security] use csrf middleware
+2018-11-12 10:53:07,574 INFO 48349 [egg-security] use methodnoallow middleware
+2018-11-12 10:53:07,574 INFO 48349 [egg-security] use noopen middleware
+2018-11-12 10:53:07,574 INFO 48349 [egg-security] use nosniff middleware
+2018-11-12 10:53:07,575 INFO 48349 [egg-security] use xssProtection middleware
+2018-11-12 10:53:07,575 INFO 48349 [egg-security] use xframe middleware
+2018-11-12 10:53:07,575 INFO 48349 [egg-security] use dta middleware
+2018-11-12 10:53:07,575 INFO 48349 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:53:07,581 INFO 48349 [egg:core] dump config after load, 3ms
+2018-11-12 10:53:07,583 INFO 48349 [egg-mongoose] starting...
+2018-11-12 10:53:07,603 INFO 48349 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:53:07,603 INFO 48349 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:53:07,605 INFO 48349 [egg-watcher:application] watcher start success
+2018-11-12 10:53:07,611 INFO 48349 [egg:core] dump config after ready, 4ms
+2018-11-12 10:54:40,344 INFO 48380 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 10:54:40,373 INFO 48380 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 10:54:40,373 INFO 48380 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 10:54:40,374 INFO 48380 [egg-multipart] stream mode enable
+2018-11-12 10:54:40,529 INFO 48380 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 10:54:40,569 INFO 48380 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 10:54:40,570 INFO 48380 [egg-security] use csrf middleware
+2018-11-12 10:54:40,571 INFO 48380 [egg-security] use methodnoallow middleware
+2018-11-12 10:54:40,571 INFO 48380 [egg-security] use noopen middleware
+2018-11-12 10:54:40,571 INFO 48380 [egg-security] use nosniff middleware
+2018-11-12 10:54:40,572 INFO 48380 [egg-security] use xssProtection middleware
+2018-11-12 10:54:40,572 INFO 48380 [egg-security] use xframe middleware
+2018-11-12 10:54:40,572 INFO 48380 [egg-security] use dta middleware
+2018-11-12 10:54:40,572 INFO 48380 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 10:54:40,579 INFO 48380 [egg:core] dump config after load, 4ms
+2018-11-12 10:54:40,580 INFO 48380 [egg-mongoose] starting...
+2018-11-12 10:54:40,599 INFO 48380 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 10:54:40,600 INFO 48380 [egg-mongoose] instance[0] start successfully
+2018-11-12 10:54:40,602 INFO 48380 [egg-watcher:application] watcher start success
+2018-11-12 10:54:40,606 INFO 48380 [egg:core] dump config after ready, 3ms
+2018-11-12 14:11:50,230 WARN 48380 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-11-12 14:11:50,231 WARN 48380 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-12 14:18:32,090 INFO 48418 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:18:32,118 INFO 48418 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:18:32,118 INFO 48418 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:18:32,118 INFO 48418 [egg-multipart] stream mode enable
+2018-11-12 14:18:32,269 INFO 48418 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:18:32,309 INFO 48418 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:18:32,311 INFO 48418 [egg-security] use csrf middleware
+2018-11-12 14:18:32,311 INFO 48418 [egg-security] use methodnoallow middleware
+2018-11-12 14:18:32,312 INFO 48418 [egg-security] use noopen middleware
+2018-11-12 14:18:32,312 INFO 48418 [egg-security] use nosniff middleware
+2018-11-12 14:18:32,312 INFO 48418 [egg-security] use xssProtection middleware
+2018-11-12 14:18:32,313 INFO 48418 [egg-security] use xframe middleware
+2018-11-12 14:18:32,313 INFO 48418 [egg-security] use dta middleware
+2018-11-12 14:18:32,313 INFO 48418 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:18:32,319 INFO 48418 [egg:core] dump config after load, 3ms
+2018-11-12 14:18:32,321 INFO 48418 [egg-mongoose] starting...
+2018-11-12 14:18:32,341 INFO 48418 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:18:32,342 INFO 48418 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:18:32,344 INFO 48418 [egg-watcher:application] watcher start success
+2018-11-12 14:18:32,348 INFO 48418 [egg:core] dump config after ready, 2ms
+2018-11-12 14:18:47,132 INFO 48427 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:18:47,161 INFO 48427 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:18:47,161 INFO 48427 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:18:47,162 INFO 48427 [egg-multipart] stream mode enable
+2018-11-12 14:18:47,316 INFO 48427 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:18:47,356 INFO 48427 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:18:47,358 INFO 48427 [egg-security] use csrf middleware
+2018-11-12 14:18:47,358 INFO 48427 [egg-security] use methodnoallow middleware
+2018-11-12 14:18:47,358 INFO 48427 [egg-security] use noopen middleware
+2018-11-12 14:18:47,359 INFO 48427 [egg-security] use nosniff middleware
+2018-11-12 14:18:47,359 INFO 48427 [egg-security] use xssProtection middleware
+2018-11-12 14:18:47,359 INFO 48427 [egg-security] use xframe middleware
+2018-11-12 14:18:47,359 INFO 48427 [egg-security] use dta middleware
+2018-11-12 14:18:47,359 INFO 48427 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:18:47,366 INFO 48427 [egg:core] dump config after load, 4ms
+2018-11-12 14:18:47,367 INFO 48427 [egg-mongoose] starting...
+2018-11-12 14:18:47,386 INFO 48427 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:18:47,387 INFO 48427 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:18:47,389 INFO 48427 [egg-watcher:application] watcher start success
+2018-11-12 14:18:47,394 INFO 48427 [egg:core] dump config after ready, 3ms
+2018-11-12 14:21:52,238 INFO 48442 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:21:52,267 INFO 48442 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:21:52,267 INFO 48442 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:21:52,268 INFO 48442 [egg-multipart] stream mode enable
+2018-11-12 14:21:52,423 INFO 48442 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:21:52,463 INFO 48442 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:21:52,465 INFO 48442 [egg-security] use csrf middleware
+2018-11-12 14:21:52,465 INFO 48442 [egg-security] use methodnoallow middleware
+2018-11-12 14:21:52,466 INFO 48442 [egg-security] use noopen middleware
+2018-11-12 14:21:52,466 INFO 48442 [egg-security] use nosniff middleware
+2018-11-12 14:21:52,467 INFO 48442 [egg-security] use xssProtection middleware
+2018-11-12 14:21:52,467 INFO 48442 [egg-security] use xframe middleware
+2018-11-12 14:21:52,467 INFO 48442 [egg-security] use dta middleware
+2018-11-12 14:21:52,467 INFO 48442 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:21:52,474 INFO 48442 [egg:core] dump config after load, 3ms
+2018-11-12 14:21:52,476 INFO 48442 [egg-mongoose] starting...
+2018-11-12 14:21:52,496 INFO 48442 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:21:52,497 INFO 48442 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:21:52,499 INFO 48442 [egg-watcher:application] watcher start success
+2018-11-12 14:21:52,505 INFO 48442 [egg:core] dump config after ready, 5ms
+2018-11-12 14:24:36,780 INFO 48447 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:24:36,823 INFO 48447 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:24:36,823 INFO 48447 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:24:36,823 INFO 48447 [egg-multipart] stream mode enable
+2018-11-12 14:24:37,007 INFO 48447 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:24:37,050 INFO 48447 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:24:37,052 INFO 48447 [egg-security] use csrf middleware
+2018-11-12 14:24:37,053 INFO 48447 [egg-security] use methodnoallow middleware
+2018-11-12 14:24:37,053 INFO 48447 [egg-security] use noopen middleware
+2018-11-12 14:24:37,053 INFO 48447 [egg-security] use nosniff middleware
+2018-11-12 14:24:37,053 INFO 48447 [egg-security] use xssProtection middleware
+2018-11-12 14:24:37,054 INFO 48447 [egg-security] use xframe middleware
+2018-11-12 14:24:37,054 INFO 48447 [egg-security] use dta middleware
+2018-11-12 14:24:37,054 INFO 48447 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:24:37,061 INFO 48447 [egg:core] dump config after load, 4ms
+2018-11-12 14:24:37,062 INFO 48447 [egg-mongoose] starting...
+2018-11-12 14:24:37,081 INFO 48447 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:24:37,081 INFO 48447 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:24:37,083 INFO 48447 [egg-watcher:application] watcher start success
+2018-11-12 14:24:37,090 INFO 48447 [egg:core] dump config after ready, 5ms
+2018-11-12 14:25:14,433 INFO 48453 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:25:14,464 INFO 48453 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:25:14,464 INFO 48453 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:25:14,464 INFO 48453 [egg-multipart] stream mode enable
+2018-11-12 14:25:14,621 INFO 48453 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:25:14,663 INFO 48453 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:25:14,664 INFO 48453 [egg-security] use csrf middleware
+2018-11-12 14:25:14,665 INFO 48453 [egg-security] use methodnoallow middleware
+2018-11-12 14:25:14,665 INFO 48453 [egg-security] use noopen middleware
+2018-11-12 14:25:14,666 INFO 48453 [egg-security] use nosniff middleware
+2018-11-12 14:25:14,666 INFO 48453 [egg-security] use xssProtection middleware
+2018-11-12 14:25:14,666 INFO 48453 [egg-security] use xframe middleware
+2018-11-12 14:25:14,666 INFO 48453 [egg-security] use dta middleware
+2018-11-12 14:25:14,666 INFO 48453 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:25:14,673 INFO 48453 [egg:core] dump config after load, 4ms
+2018-11-12 14:25:14,674 INFO 48453 [egg-mongoose] starting...
+2018-11-12 14:25:14,696 INFO 48453 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:25:14,697 INFO 48453 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:25:14,699 INFO 48453 [egg-watcher:application] watcher start success
+2018-11-12 14:25:14,703 INFO 48453 [egg:core] dump config after ready, 3ms
+2018-11-12 14:25:21,692 INFO 48461 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:25:21,722 INFO 48461 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:25:21,722 INFO 48461 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:25:21,722 INFO 48461 [egg-multipart] stream mode enable
+2018-11-12 14:25:21,877 INFO 48461 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:25:21,916 INFO 48461 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:25:21,918 INFO 48461 [egg-security] use csrf middleware
+2018-11-12 14:25:21,919 INFO 48461 [egg-security] use methodnoallow middleware
+2018-11-12 14:25:21,919 INFO 48461 [egg-security] use noopen middleware
+2018-11-12 14:25:21,920 INFO 48461 [egg-security] use nosniff middleware
+2018-11-12 14:25:21,920 INFO 48461 [egg-security] use xssProtection middleware
+2018-11-12 14:25:21,920 INFO 48461 [egg-security] use xframe middleware
+2018-11-12 14:25:21,921 INFO 48461 [egg-security] use dta middleware
+2018-11-12 14:25:21,921 INFO 48461 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:25:21,927 INFO 48461 [egg:core] dump config after load, 4ms
+2018-11-12 14:25:21,929 INFO 48461 [egg-mongoose] starting...
+2018-11-12 14:25:21,948 INFO 48461 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:25:21,948 INFO 48461 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:25:21,950 INFO 48461 [egg-watcher:application] watcher start success
+2018-11-12 14:25:21,957 INFO 48461 [egg:core] dump config after ready, 5ms
+2018-11-12 14:25:52,337 INFO 48465 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:25:52,369 INFO 48465 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:25:52,369 INFO 48465 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:25:52,369 INFO 48465 [egg-multipart] stream mode enable
+2018-11-12 14:25:52,525 INFO 48465 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:25:52,568 INFO 48465 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:25:52,570 INFO 48465 [egg-security] use csrf middleware
+2018-11-12 14:25:52,570 INFO 48465 [egg-security] use methodnoallow middleware
+2018-11-12 14:25:52,570 INFO 48465 [egg-security] use noopen middleware
+2018-11-12 14:25:52,571 INFO 48465 [egg-security] use nosniff middleware
+2018-11-12 14:25:52,571 INFO 48465 [egg-security] use xssProtection middleware
+2018-11-12 14:25:52,571 INFO 48465 [egg-security] use xframe middleware
+2018-11-12 14:25:52,571 INFO 48465 [egg-security] use dta middleware
+2018-11-12 14:25:52,572 INFO 48465 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:25:52,578 INFO 48465 [egg:core] dump config after load, 4ms
+2018-11-12 14:25:52,580 INFO 48465 [egg-mongoose] starting...
+2018-11-12 14:25:52,598 INFO 48465 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:25:52,599 INFO 48465 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:25:52,601 INFO 48465 [egg-watcher:application] watcher start success
+2018-11-12 14:25:52,605 INFO 48465 [egg:core] dump config after ready, 3ms
+2018-11-12 14:27:10,694 INFO 48470 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:27:10,724 INFO 48470 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:27:10,724 INFO 48470 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:27:10,724 INFO 48470 [egg-multipart] stream mode enable
+2018-11-12 14:27:10,879 INFO 48470 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:27:10,919 INFO 48470 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:27:10,921 INFO 48470 [egg-security] use csrf middleware
+2018-11-12 14:27:10,922 INFO 48470 [egg-security] use methodnoallow middleware
+2018-11-12 14:27:10,922 INFO 48470 [egg-security] use noopen middleware
+2018-11-12 14:27:10,922 INFO 48470 [egg-security] use nosniff middleware
+2018-11-12 14:27:10,923 INFO 48470 [egg-security] use xssProtection middleware
+2018-11-12 14:27:10,923 INFO 48470 [egg-security] use xframe middleware
+2018-11-12 14:27:10,923 INFO 48470 [egg-security] use dta middleware
+2018-11-12 14:27:10,923 INFO 48470 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:27:10,930 INFO 48470 [egg:core] dump config after load, 4ms
+2018-11-12 14:27:10,932 INFO 48470 [egg-mongoose] starting...
+2018-11-12 14:27:10,950 INFO 48470 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:27:10,950 INFO 48470 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:27:10,952 INFO 48470 [egg-watcher:application] watcher start success
+2018-11-12 14:27:10,959 INFO 48470 [egg:core] dump config after ready, 5ms
+2018-11-12 14:27:20,258 INFO 48478 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:27:20,287 INFO 48478 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:27:20,287 INFO 48478 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:27:20,288 INFO 48478 [egg-multipart] stream mode enable
+2018-11-12 14:27:20,444 INFO 48478 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:27:20,487 INFO 48478 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:27:20,489 INFO 48478 [egg-security] use csrf middleware
+2018-11-12 14:27:20,489 INFO 48478 [egg-security] use methodnoallow middleware
+2018-11-12 14:27:20,489 INFO 48478 [egg-security] use noopen middleware
+2018-11-12 14:27:20,490 INFO 48478 [egg-security] use nosniff middleware
+2018-11-12 14:27:20,490 INFO 48478 [egg-security] use xssProtection middleware
+2018-11-12 14:27:20,490 INFO 48478 [egg-security] use xframe middleware
+2018-11-12 14:27:20,491 INFO 48478 [egg-security] use dta middleware
+2018-11-12 14:27:20,491 INFO 48478 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:27:20,498 INFO 48478 [egg:core] dump config after load, 4ms
+2018-11-12 14:27:20,500 INFO 48478 [egg-mongoose] starting...
+2018-11-12 14:27:20,518 INFO 48478 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:27:20,519 INFO 48478 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:27:20,521 INFO 48478 [egg-watcher:application] watcher start success
+2018-11-12 14:27:20,525 INFO 48478 [egg:core] dump config after ready, 3ms
+2018-11-12 14:28:31,240 INFO 48491 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:28:31,265 INFO 48491 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:28:31,265 INFO 48491 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:28:31,266 INFO 48491 [egg-multipart] stream mode enable
+2018-11-12 14:28:31,420 INFO 48491 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:28:31,459 INFO 48491 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:28:31,461 INFO 48491 [egg-security] use csrf middleware
+2018-11-12 14:28:31,461 INFO 48491 [egg-security] use methodnoallow middleware
+2018-11-12 14:28:31,461 INFO 48491 [egg-security] use noopen middleware
+2018-11-12 14:28:31,462 INFO 48491 [egg-security] use nosniff middleware
+2018-11-12 14:28:31,462 INFO 48491 [egg-security] use xssProtection middleware
+2018-11-12 14:28:31,462 INFO 48491 [egg-security] use xframe middleware
+2018-11-12 14:28:31,462 INFO 48491 [egg-security] use dta middleware
+2018-11-12 14:28:31,462 INFO 48491 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:28:31,469 INFO 48491 [egg:core] dump config after load, 3ms
+2018-11-12 14:28:31,471 INFO 48491 [egg-mongoose] starting...
+2018-11-12 14:28:31,491 INFO 48491 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:28:31,492 INFO 48491 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:28:31,494 INFO 48491 [egg-watcher:application] watcher start success
+2018-11-12 14:28:31,498 INFO 48491 [egg:core] dump config after ready, 2ms
+2018-11-12 14:28:43,769 INFO 48495 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:28:43,798 INFO 48495 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:28:43,798 INFO 48495 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:28:43,798 INFO 48495 [egg-multipart] stream mode enable
+2018-11-12 14:28:43,960 INFO 48495 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:28:44,000 INFO 48495 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:28:44,002 INFO 48495 [egg-security] use csrf middleware
+2018-11-12 14:28:44,002 INFO 48495 [egg-security] use methodnoallow middleware
+2018-11-12 14:28:44,002 INFO 48495 [egg-security] use noopen middleware
+2018-11-12 14:28:44,003 INFO 48495 [egg-security] use nosniff middleware
+2018-11-12 14:28:44,003 INFO 48495 [egg-security] use xssProtection middleware
+2018-11-12 14:28:44,003 INFO 48495 [egg-security] use xframe middleware
+2018-11-12 14:28:44,003 INFO 48495 [egg-security] use dta middleware
+2018-11-12 14:28:44,003 INFO 48495 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:28:44,010 INFO 48495 [egg:core] dump config after load, 4ms
+2018-11-12 14:28:44,011 INFO 48495 [egg-mongoose] starting...
+2018-11-12 14:28:44,029 INFO 48495 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:28:44,030 INFO 48495 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:28:44,032 INFO 48495 [egg-watcher:application] watcher start success
+2018-11-12 14:28:44,038 INFO 48495 [egg:core] dump config after ready, 5ms
+2018-11-12 14:29:06,977 INFO 48497 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:29:07,008 INFO 48497 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:29:07,008 INFO 48497 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:29:07,008 INFO 48497 [egg-multipart] stream mode enable
+2018-11-12 14:29:07,163 INFO 48497 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:29:07,203 INFO 48497 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:29:07,205 INFO 48497 [egg-security] use csrf middleware
+2018-11-12 14:29:07,205 INFO 48497 [egg-security] use methodnoallow middleware
+2018-11-12 14:29:07,205 INFO 48497 [egg-security] use noopen middleware
+2018-11-12 14:29:07,206 INFO 48497 [egg-security] use nosniff middleware
+2018-11-12 14:29:07,206 INFO 48497 [egg-security] use xssProtection middleware
+2018-11-12 14:29:07,207 INFO 48497 [egg-security] use xframe middleware
+2018-11-12 14:29:07,207 INFO 48497 [egg-security] use dta middleware
+2018-11-12 14:29:07,207 INFO 48497 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:29:07,214 INFO 48497 [egg:core] dump config after load, 4ms
+2018-11-12 14:29:07,215 INFO 48497 [egg-mongoose] starting...
+2018-11-12 14:29:07,234 INFO 48497 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:29:07,235 INFO 48497 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:29:07,237 INFO 48497 [egg-watcher:application] watcher start success
+2018-11-12 14:29:07,243 INFO 48497 [egg:core] dump config after ready, 5ms
+2018-11-12 14:30:26,789 INFO 48503 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:30:26,821 INFO 48503 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:30:26,821 INFO 48503 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:30:26,822 INFO 48503 [egg-multipart] stream mode enable
+2018-11-12 14:30:26,978 INFO 48503 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:30:27,018 INFO 48503 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:30:27,020 INFO 48503 [egg-security] use csrf middleware
+2018-11-12 14:30:27,020 INFO 48503 [egg-security] use methodnoallow middleware
+2018-11-12 14:30:27,021 INFO 48503 [egg-security] use noopen middleware
+2018-11-12 14:30:27,021 INFO 48503 [egg-security] use nosniff middleware
+2018-11-12 14:30:27,021 INFO 48503 [egg-security] use xssProtection middleware
+2018-11-12 14:30:27,021 INFO 48503 [egg-security] use xframe middleware
+2018-11-12 14:30:27,022 INFO 48503 [egg-security] use dta middleware
+2018-11-12 14:30:27,022 INFO 48503 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:30:27,027 INFO 48503 [egg:core] dump config after load, 3ms
+2018-11-12 14:30:27,029 INFO 48503 [egg-mongoose] starting...
+2018-11-12 14:30:27,050 INFO 48503 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:30:27,051 INFO 48503 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:30:27,053 INFO 48503 [egg-watcher:application] watcher start success
+2018-11-12 14:30:27,057 INFO 48503 [egg:core] dump config after ready, 2ms
+2018-11-12 14:32:48,251 INFO 48509 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-12 14:32:48,282 INFO 48509 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-12 14:32:48,282 INFO 48509 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-12 14:32:48,282 INFO 48509 [egg-multipart] stream mode enable
+2018-11-12 14:32:48,445 INFO 48509 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-12 14:32:48,484 INFO 48509 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-12 14:32:48,486 INFO 48509 [egg-security] use csrf middleware
+2018-11-12 14:32:48,487 INFO 48509 [egg-security] use methodnoallow middleware
+2018-11-12 14:32:48,487 INFO 48509 [egg-security] use noopen middleware
+2018-11-12 14:32:48,487 INFO 48509 [egg-security] use nosniff middleware
+2018-11-12 14:32:48,487 INFO 48509 [egg-security] use xssProtection middleware
+2018-11-12 14:32:48,488 INFO 48509 [egg-security] use xframe middleware
+2018-11-12 14:32:48,488 INFO 48509 [egg-security] use dta middleware
+2018-11-12 14:32:48,488 INFO 48509 [egg-security] compose 7 middlewares into one security middleware
+2018-11-12 14:32:48,494 INFO 48509 [egg:core] dump config after load, 3ms
+2018-11-12 14:32:48,496 INFO 48509 [egg-mongoose] starting...
+2018-11-12 14:32:48,513 INFO 48509 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-12 14:32:48,514 INFO 48509 [egg-mongoose] instance[0] start successfully
+2018-11-12 14:32:48,516 INFO 48509 [egg-watcher:application] watcher start success
+2018-11-12 14:32:48,522 INFO 48509 [egg:core] dump config after ready, 5ms
