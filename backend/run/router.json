@@ -19,8 +19,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/torrent/searchByTitle",
-    "regexp": "/^\\/api\\/torrent\\/searchByTitle(?:\\/(?=$))?$/",
+    "path": "/api/torrent/getByTitle",
+    "regexp": "/^\\/api\\/torrent\\/getByTitle(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

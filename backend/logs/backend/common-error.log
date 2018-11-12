@@ -499,3 +499,138 @@ hostname: Vinci.local
 pid: 48442
 hostname: Vinci.local
 
+2018-11-12 15:48:23,312 ERROR 48490 nodejs.ClusterClientNoResponseError: client no response in 110856ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 48490
+hostname: Vinci.local
+
+2018-11-12 15:51:43,475 ERROR 50638 [-/127.0.0.1/-/7ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50638
+hostname: Vinci.local
+
+2018-11-12 15:52:24,584 ERROR 50645 [-/127.0.0.1/-/6ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at ClientController.getByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:14:25)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50645
+hostname: Vinci.local
+
+2018-11-12 15:52:57,749 ERROR 50650 [-/127.0.0.1/-/7ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50650
+hostname: Vinci.local
+
+2018-11-12 15:53:19,517 ERROR 50659 [-/127.0.0.1/-/8ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50659
+hostname: Vinci.local
+
+2018-11-12 15:54:03,695 ERROR 50662 [-/127.0.0.1/-/7ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at TorrentService.getTorrentByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/service/torrent.js:11:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50662
+hostname: Vinci.local
+
+2018-11-12 15:54:49,318 ERROR 50677 [-/127.0.0.1/-/11ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50677
+hostname: Vinci.local
+
+2018-11-12 15:55:35,585 ERROR 50682 [-/127.0.0.1/-/15ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50682
+hostname: Vinci.local
+
+2018-11-12 15:56:50,417 ERROR 50689 [-/127.0.0.1/-/15ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50689
+hostname: Vinci.local
+
+2018-11-12 16:07:27,762 ERROR 50725 [-/127.0.0.1/-/13ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50725
+hostname: Vinci.local
+
+2018-11-12 16:08:09,101 ERROR 50730 [-/127.0.0.1/-/13ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50730
+hostname: Vinci.local
+
+2018-11-12 16:08:23,631 ERROR 50734 [-/127.0.0.1/-/7ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50734
+hostname: Vinci.local
+
+2018-11-12 17:15:23,578 ERROR 50676 nodejs.ClusterClientNoResponseError: client no response in 155038ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 50676
+hostname: Vinci.local
+
+2018-11-12 20:35:14,269 ERROR 50676 nodejs.ClusterClientNoResponseError: client no response in 9030362ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 50676
+hostname: Vinci.local
+
