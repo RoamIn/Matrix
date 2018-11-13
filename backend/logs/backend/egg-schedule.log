@@ -64,3 +64,7 @@
 2018-11-12 15:54:46,953 INFO 50676 [Timer] /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-11-13 00:00:01.000
 2018-11-12 21:18:03,552 INFO 1374 [Timer] /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-11-13 00:00:00.000
 2018-11-12 21:18:03,552 INFO 1374 [Timer] /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-11-13 00:00:01.000
+2018-11-13 09:12:25,309 INFO 1096 [Timer] /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-11-14 00:00:00.000
+2018-11-13 09:12:25,310 INFO 1096 [Timer] /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-11-14 00:00:01.000
+2018-11-13 09:40:30,847 INFO 1560 [Timer] /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-11-14 00:00:00.000
+2018-11-13 09:40:30,848 INFO 1560 [Timer] /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-11-14 00:00:01.000

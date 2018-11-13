@@ -2,39 +2,58 @@
   <main>
     <drawer></drawer>
     <div class="center">
-      <search class="search" @change="setList"></search>
-      <list :list="listData"></list>
+      <search class="search" @search="search"></search>
+
+      <loading v-if="isLoading"/>
+      <torrent-list :list="list" v-else></torrent-list>
+
+      <div v-if="hasError"></div>
+      <div v-else-if="list.length === 0"></div>
     </div>
   </main>
 </template>
 
 <script>
 import Drawer from './components/drawer.vue'
-import List from './components/list.vue'
+import TorrentList from './components/torrent-list.vue'
+import Loading from './components/loading.vue'
 import Search from './components/search.vue'
 
 export default {
   name: 'Home',
   components: {
     Drawer,
-    List,
+    TorrentList,
+    Loading,
     Search
   },
   data () {
     return {
-      listData: []
+      list: [],
+      isLoading: false,
+      hasError: false
     }
   },
   methods: {
-    setList (list) {
-      this.listData = list
+    search (title) {
+      this.isLoading = true
+
+      this.$ajax('getTorrentByTitle', {
+        title
+      }).then((res) => {
+        this.list = res.data.list
+      }).catch(() => {
+        console.log(223)
+      }).finally(() => {
+        this.isLoading = false
+      })
     }
   }
 }
 </script>
 
 <style lang="scss">
-  #app  {
+  #app {
     overflow: hidden;
     position: relative;
 

@@ -4,9 +4,16 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// components
+import Icon from '@/components/icon'
+
 // plugins
 import ajax from '@/plugins/ajax'
 
+// use components
+Vue.component(Icon.name, Icon)
+
+// use plugins
 Vue.use(ajax)
 
 Vue.config.productionTip = false
