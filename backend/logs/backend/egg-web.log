@@ -2259,3 +2259,23 @@
 2018-11-13 21:58:01,710 INFO 4752 [egg-watcher:application] watcher start success
 2018-11-13 21:58:01,715 INFO 4752 [egg:core] dump config after ready, 3ms
 2018-11-13 22:43:47,737 WARN 4752 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-13 23:36:09,609 INFO 6147 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 23:36:09,639 INFO 6147 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-13 23:36:09,639 INFO 6147 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-13 23:36:09,639 INFO 6147 [egg-multipart] stream mode enable
+2018-11-13 23:36:09,809 INFO 6147 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-13 23:36:09,865 INFO 6147 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-13 23:36:09,868 INFO 6147 [egg-security] use csrf middleware
+2018-11-13 23:36:09,868 INFO 6147 [egg-security] use methodnoallow middleware
+2018-11-13 23:36:09,868 INFO 6147 [egg-security] use noopen middleware
+2018-11-13 23:36:09,869 INFO 6147 [egg-security] use nosniff middleware
+2018-11-13 23:36:09,869 INFO 6147 [egg-security] use xssProtection middleware
+2018-11-13 23:36:09,870 INFO 6147 [egg-security] use xframe middleware
+2018-11-13 23:36:09,870 INFO 6147 [egg-security] use dta middleware
+2018-11-13 23:36:09,870 INFO 6147 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 23:36:09,877 INFO 6147 [egg:core] dump config after load, 4ms
+2018-11-13 23:36:09,879 INFO 6147 [egg-mongoose] starting...
+2018-11-13 23:36:09,897 INFO 6147 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-13 23:36:09,898 INFO 6147 [egg-mongoose] instance[0] start successfully
+2018-11-13 23:36:09,899 INFO 6147 [egg-watcher:application] watcher start success
+2018-11-13 23:36:09,906 INFO 6147 [egg:core] dump config after ready, 5ms

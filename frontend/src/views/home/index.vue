@@ -76,7 +76,7 @@ export default {
 </style>
 <style lang="scss" scoped>
   main {
-    overflow: scroll;
+    overflow: auto;
     height: 100vh;
   }
 
