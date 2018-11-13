@@ -1,0 +1,681 @@
+2018-11-09 11:48:31,293 ERROR 44464 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/lib/application.js:321:15)
+    at Object.get cookies [as cookies] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+
+pid: 44464
+hostname: Vinci.local
+
+2018-11-09 11:48:32,920 ERROR 44464 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/lib/application.js:321:15)
+    at Object.get cookies [as cookies] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+
+pid: 44464
+hostname: Vinci.local
+
+2018-11-09 12:31:10,669 ERROR 44762 nodejs.ClusterClientNoResponseError: client no response in 118083ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 44762
+hostname: Vinci.local
+
+2018-11-09 13:20:07,736 ERROR 44762 nodejs.ClusterClientNoResponseError: client no response in 2897283ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 44762
+hostname: Vinci.local
+
+2018-11-09 13:51:54,564 ERROR 44762 nodejs.ClusterClientNoResponseError: client no response in 106226ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 44762
+hostname: Vinci.local
+
+2018-11-09 14:01:54,145 ERROR 44762 nodejs.ClusterClientNoResponseError: client no response in 450605ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 44762
+hostname: Vinci.local
+
+2018-11-09 14:10:20,104 ERROR 44762 nodejs.ClusterClientNoResponseError: client no response in 485943ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 44762
+hostname: Vinci.local
+
+2018-11-09 14:53:34,502 ERROR 45298 [-/127.0.0.1/-/5ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public/client/dist/index.html'
+ENOENTError: ENOENT: no such file or directory, open '/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public/client/dist/index.html'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public/client/dist/index.html"
+name: "ENOENTError"
+pid: 45298
+hostname: Vinci.local
+
+2018-11-09 15:39:58,230 ERROR 45596 [-/127.0.0.1/-/9ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public/client/dist/index.html'
+ENOENTError: ENOENT: no such file or directory, open '/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public/client/dist/index.html'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public/client/dist/index.html"
+name: "ENOENTError"
+pid: 45596
+hostname: Vinci.local
+
+2018-11-09 17:42:50,182 ERROR 46502 [-/127.0.0.1/-/9ms GET /api/torrent/searchByTitle?title=%E5%A4%A9] nodejs.TypeError: ctx.service.torrent.searchByTitle is not a function
+    at ClientController.searchByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:13:55)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 46502
+hostname: Vinci.local
+
+2018-11-09 18:06:00,711 ERROR 46597 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/model/torrent.js:33:17)
+    at getExports (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/egg_loader.js:387:25)
+    at loadModelToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:103:14)
+    at app.beforeStart (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:43:7)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 46597
+hostname: Vinci.local
+
+2018-11-12 09:59:04,660 ERROR 46867 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/model/torrent.js:33:17)
+    at getExports (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/egg_loader.js:387:25)
+    at loadModelToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:103:14)
+    at app.beforeStart (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:43:7)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 46867
+hostname: Vinci.local
+
+2018-11-12 10:00:05,420 ERROR 47422 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/model/torrent.js:33:17)
+    at getExports (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/egg_loader.js:387:25)
+    at loadModelToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:103:14)
+    at app.beforeStart (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:43:7)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 47422
+hostname: Vinci.local
+
+2018-11-12 10:04:04,303 ERROR 47450 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: app.mongooseDB.get is not a function
+    at module.exports.app (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/model/torrent.js:4:33)
+    at getExports (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/egg_loader.js:387:25)
+    at loadModelToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:103:14)
+    at app.beforeStart (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:43:7)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 47450
+hostname: Vinci.local
+
+2018-11-12 10:05:09,248 ERROR 47459 [-/127.0.0.1/-/7ms GET /api/torrent/searchByTitle?title=%E5%A4%A9] nodejs.TypeError: ctx.service.torrent.searchByTitle is not a function
+    at ClientController.searchByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:13:55)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+
+pid: 47459
+hostname: Vinci.local
+
+2018-11-12 10:06:19,449 ERROR 47463 [-/127.0.0.1/-/6ms GET /api/torrent/searchByTitle?title=%E5%A4%A9] nodejs.TypeError: this.ctx.model.find is not a function
+    at TorrentService.getTorrentByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/service/torrent.js:5:43)
+    at ClientController.searchByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:13:55)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 47463
+hostname: Vinci.local
+
+2018-11-12 10:10:11,953 ERROR 47751 [-/127.0.0.1/-/6ms GET /api/torrent/searchByTitle?title=%E5%A4%A9] nodejs.TypeError: this.ctx.model.find is not a function
+    at TorrentService.getTorrentByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/service/torrent.js:5:43)
+    at ClientController.searchByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:13:55)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 47751
+hostname: Vinci.local
+
+2018-11-12 10:10:59,454 ERROR 47756 [-/127.0.0.1/-/7ms GET /api/torrent/searchByTitle?title=%E5%A4%A9] nodejs.TypeError: ctx.service.torrent.searchByTitle is not a function
+    at ClientController.searchByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:13:55)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+
+pid: 47756
+hostname: Vinci.local
+
+2018-11-12 10:12:35,352 ERROR 47772 [-/127.0.0.1/-/11ms GET /api/torrent/searchByTitle?title=%E5%A4%A9] nodejs.TypeError: ctx.service.torrent.searchByTitle is not a function
+    at ClientController.searchByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:14:55)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+
+pid: 47772
+hostname: Vinci.local
+
+2018-11-12 10:14:59,730 ERROR 47786 [-/127.0.0.1/-/11ms GET /api/torrent/searchByTitle?title=%E5%A4%A9] nodejs.TypeError: this.ctx.model.find is not a function
+    at TorrentService.getTorrentByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/service/torrent.js:5:43)
+    at ClientController.searchByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:14:55)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 47786
+hostname: Vinci.local
+
+2018-11-12 10:15:55,243 ERROR 47798 [-/127.0.0.1/-/6ms GET /api/torrent/searchByTitle?title=%E5%A4%A9] nodejs.TypeError: Cannot read property 'find' of undefined
+    at TorrentService.getTorrentByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/service/torrent.js:5:40)
+    at ClientController.searchByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:12:55)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 47798
+hostname: Vinci.local
+
+2018-11-12 10:18:28,175 ERROR 47823 [-/127.0.0.1/-/6ms GET /api/torrent/searchByTitle?title=%E5%A4%A9] nodejs.TypeError: this.ctx.model.find is not a function
+    at TorrentService.getTorrentByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/service/torrent.js:5:43)
+    at ClientController.searchByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:12:55)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 47823
+hostname: Vinci.local
+
+2018-11-12 10:29:57,933 ERROR 48163 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/model/torrent.js, error: Unexpected token const
+    const TorrentSchema = new Schema({
+    ^^^^^
+
+SyntaxError: Unexpected token const
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.loadFile (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:19:19)
+    at getExports (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/egg_loader.js:387:25)
+    at loadModelToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:103:14)
+    at app.beforeStart (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:43:7)
+
+pid: 48163
+hostname: Vinci.local
+
+2018-11-12 10:30:22,095 ERROR 48172 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/model/torrent.js:33:17)
+    at getExports (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/egg_loader.js:387:25)
+    at loadModelToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:103:14)
+    at app.beforeStart (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:43:7)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 48172
+hostname: Vinci.local
+
+2018-11-12 10:31:01,057 ERROR 48185 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/model/torrent.js:33:17)
+    at getExports (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/egg_loader.js:387:25)
+    at loadModelToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:103:14)
+    at app.beforeStart (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:43:7)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 48185
+hostname: Vinci.local
+
+2018-11-12 10:31:34,355 ERROR 48195 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/model/torrent.js:33:17)
+    at getExports (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/egg_loader.js:387:25)
+    at loadModelToApp (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:103:14)
+    at app.beforeStart (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-mongoose/lib/mongoose.js:43:7)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:42)
+    at process.nextTick (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/lifecycle.js:249:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 48195
+hostname: Vinci.local
+
+2018-11-12 10:52:50,416 ERROR 48347 [-/127.0.0.1/-/6ms GET /api/torrent/searchByTitle?title=%E9%87%91] nodejs.TypeError: Cannot read property 'getTorrentByTitle' of undefined
+    at ClientController.searchByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:12:55)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+
+pid: 48347
+hostname: Vinci.local
+
+2018-11-12 10:53:08,394 ERROR 48349 [-/127.0.0.1/-/6ms GET /api/torrent/searchByTitle?title=%E9%87%91] nodejs.TypeError: Cannot read property 'find' of undefined
+    at TorrentService.getTorrentByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/service/torrent.js:7:46)
+    at ClientController.searchByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:12:50)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 48349
+hostname: Vinci.local
+
+2018-11-12 14:11:50,231 ERROR 48379 nodejs.ClusterClientNoResponseError: client no response in 11488919ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 48379
+hostname: Vinci.local
+
+2018-11-12 14:21:56,861 ERROR 48442 [-/127.0.0.1/-/8ms GET /api/torrent/searchByTitle?title=%E9%87%91] nodejs.Error: Can't use $reg with String.
+    at SchemaString.castForQuery (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/mongoose/lib/schema/string.js:491:13)
+    at SchemaString.SchemaType.castForQueryWrapper (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/mongoose/lib/schematype.js:1130:17)
+    at cast (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/mongoose/lib/cast.js:287:39)
+    at model.Query.Query.cast (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/mongoose/lib/query.js:4024:12)
+    at model.Query.Query._castConditions (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/mongoose/lib/query.js:1690:10)
+    at model.Query.Query._find (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/mongoose/lib/query.js:1705:8)
+    at process.nextTick (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/kareem/index.js:369:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 48442
+hostname: Vinci.local
+
+2018-11-12 15:48:23,312 ERROR 48490 nodejs.ClusterClientNoResponseError: client no response in 110856ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 48490
+hostname: Vinci.local
+
+2018-11-12 15:51:43,475 ERROR 50638 [-/127.0.0.1/-/7ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50638
+hostname: Vinci.local
+
+2018-11-12 15:52:24,584 ERROR 50645 [-/127.0.0.1/-/6ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at ClientController.getByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/controller/client.js:14:25)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50645
+hostname: Vinci.local
+
+2018-11-12 15:52:57,749 ERROR 50650 [-/127.0.0.1/-/7ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50650
+hostname: Vinci.local
+
+2018-11-12 15:53:19,517 ERROR 50659 [-/127.0.0.1/-/8ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50659
+hostname: Vinci.local
+
+2018-11-12 15:54:03,695 ERROR 50662 [-/127.0.0.1/-/7ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at TorrentService.getTorrentByTitle (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/service/torrent.js:11:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50662
+hostname: Vinci.local
+
+2018-11-12 15:54:49,318 ERROR 50677 [-/127.0.0.1/-/11ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50677
+hostname: Vinci.local
+
+2018-11-12 15:55:35,585 ERROR 50682 [-/127.0.0.1/-/15ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50682
+hostname: Vinci.local
+
+2018-11-12 15:56:50,417 ERROR 50689 [-/127.0.0.1/-/15ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50689
+hostname: Vinci.local
+
+2018-11-12 16:07:27,762 ERROR 50725 [-/127.0.0.1/-/13ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50725
+hostname: Vinci.local
+
+2018-11-12 16:08:09,101 ERROR 50730 [-/127.0.0.1/-/13ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50730
+hostname: Vinci.local
+
+2018-11-12 16:08:23,631 ERROR 50734 [-/127.0.0.1/-/7ms GET /api/torrent/getByTitle?title=%E9%87%91&token=token] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:239:15)
+    at handleResponse (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/koa/lib/application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 50734
+hostname: Vinci.local
+
+2018-11-12 17:15:23,578 ERROR 50676 nodejs.ClusterClientNoResponseError: client no response in 155038ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 50676
+hostname: Vinci.local
+
+2018-11-12 20:35:14,269 ERROR 50676 nodejs.ClusterClientNoResponseError: client no response in 9030362ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 50676
+hostname: Vinci.local
+
+2018-11-13 12:23:59,905 ERROR 1560 nodejs.ClusterClientNoResponseError: client no response in 1627562ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 1560
+hostname: Vinci.local
+
+2018-11-13 12:49:18,506 ERROR 1560 nodejs.ClusterClientNoResponseError: client no response in 1478846ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 1560
+hostname: Vinci.local
+
+2018-11-13 13:24:31,061 ERROR 1560 nodejs.ClusterClientNoResponseError: client no response in 2072560ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 1560
+hostname: Vinci.local
+
+2018-11-13 14:05:30,064 ERROR 1560 nodejs.ClusterClientNoResponseError: client no response in 678359ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 1560
+hostname: Vinci.local
+
+2018-11-13 22:43:47,737 ERROR 4751 nodejs.ClusterClientNoResponseError: client no response in 1225755ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 4751
+hostname: Vinci.mshome.net
+

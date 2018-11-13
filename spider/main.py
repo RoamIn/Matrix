@@ -165,4 +165,4 @@ if __name__ == '__main__':
     db = DbClient()
 
     for category in category_list:
-        search_page(category, 120)
+        search_page(category)
