@@ -2238,3 +2238,24 @@
 2018-11-13 13:24:31,063 WARN 1561 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
 2018-11-13 13:24:31,063 WARN 1561 [ClusterClient:Watcher] follower closed, and try to init it again
 2018-11-13 14:05:30,064 WARN 1561 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-13 21:58:01,249 INFO 4752 [egg:logger] init all loggers with options: {"dir":"/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:58:01,282 INFO 4752 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-13 21:58:01,282 INFO 4752 [egg-schedule]: register schedule /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-13 21:58:01,283 INFO 4752 [egg-multipart] stream mode enable
+2018-11-13 21:58:01,582 INFO 4752 [egg-mongoose] connecting mongodb://127.0.0.1/movie
+2018-11-13 21:58:01,671 INFO 4752 [egg-static] starting static serve /public/ -> /Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public
+2018-11-13 21:58:01,673 INFO 4752 [egg-security] use csrf middleware
+2018-11-13 21:58:01,674 INFO 4752 [egg-security] use methodnoallow middleware
+2018-11-13 21:58:01,674 INFO 4752 [egg-security] use noopen middleware
+2018-11-13 21:58:01,675 INFO 4752 [egg-security] use nosniff middleware
+2018-11-13 21:58:01,676 INFO 4752 [egg-security] use xssProtection middleware
+2018-11-13 21:58:01,676 INFO 4752 [egg-security] use xframe middleware
+2018-11-13 21:58:01,677 INFO 4752 [egg-security] use dta middleware
+2018-11-13 21:58:01,677 INFO 4752 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:58:01,686 INFO 4752 [egg:core] dump config after load, 4ms
+2018-11-13 21:58:01,687 INFO 4752 [egg-mongoose] starting...
+2018-11-13 21:58:01,708 INFO 4752 [egg-mongoose] mongodb://127.0.0.1/movie connected successfully
+2018-11-13 21:58:01,708 INFO 4752 [egg-mongoose] instance[0] start successfully
+2018-11-13 21:58:01,710 INFO 4752 [egg-watcher:application] watcher start success
+2018-11-13 21:58:01,715 INFO 4752 [egg:core] dump config after ready, 3ms
+2018-11-13 22:43:47,737 WARN 4752 [ClusterClient:Watcher] follower closed, and try to init it again

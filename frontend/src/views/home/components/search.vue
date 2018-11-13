@@ -1,7 +1,7 @@
 <template>
   <form action="javascript:" @submit="search">
     <v-icon class="icon icon-search" name="search"/>
-    <input type="text" maxlength="20" placeholder="Search" autocomplete="off" autofocus="autofocus" spellcheck="false"
+    <input type="text" maxlength="20" placeholder="Search ..." autocomplete="off" autofocus="autofocus" spellcheck="false"
            v-model.trim="keyword">
     <v-icon class="icon icon-close" name="close"
             @click.native="clear"
@@ -34,8 +34,9 @@ export default {
   form {
     position: relative;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 60px 0;
     width: 600px;
+    max-width: 80%;
 
     .icon {
       position: absolute;

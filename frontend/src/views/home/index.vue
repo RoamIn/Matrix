@@ -7,8 +7,8 @@
       <loading v-if="isLoading"/>
       <torrent-list :list="list" v-else></torrent-list>
 
-      <div v-if="hasError"></div>
-      <div v-else-if="list.length === 0"></div>
+      <error v-if="hasError">Error</error>
+      <no-result v-else-if="list.length === 0"></no-result>
     </div>
   </main>
 </template>
@@ -18,6 +18,8 @@ import Drawer from './components/drawer.vue'
 import TorrentList from './components/torrent-list.vue'
 import Loading from './components/loading.vue'
 import Search from './components/search.vue'
+import Error from './components/error.vue'
+import NoResult from './components/no-result.vue'
 
 export default {
   name: 'Home',
@@ -25,7 +27,9 @@ export default {
     Drawer,
     TorrentList,
     Loading,
-    Search
+    Search,
+    Error,
+    NoResult
   },
   data () {
     return {
@@ -36,6 +40,7 @@ export default {
   },
   methods: {
     search (title) {
+      this.hasError = false
       this.isLoading = true
 
       this.$ajax('getTorrentByTitle', {
@@ -43,7 +48,7 @@ export default {
       }).then((res) => {
         this.list = res.data.list
       }).catch(() => {
-        console.log(223)
+        this.hasError = true
       }).finally(() => {
         this.isLoading = false
       })
@@ -77,6 +82,6 @@ export default {
 
   .center {
     margin: 0 auto;
-    width: 800px;
+    max-width: 800px;
   }
 </style>
