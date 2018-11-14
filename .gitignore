@@ -20,4 +20,4 @@ __pycache__
 .dist
 
 backend/run
-backend/log
+backend/logs
