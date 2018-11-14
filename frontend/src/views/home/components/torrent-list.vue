@@ -2,7 +2,7 @@
   <ul class="list">
     <li class="list-item" v-for="(item, index) in list"
         :key="index">
-      <h4 class="movie-title">{{ item.title }}</h4>
+      <h4 class="movie-title">{{ item.title }}({{ item.create_time }})</h4>
       <ul class="torrent-list" v-for="(torrent, torrentIndex) in item.torrent_list"
           :key="torrentIndex">
         <li class="torrent-list-item">

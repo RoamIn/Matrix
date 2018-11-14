@@ -7,6 +7,9 @@ module.exports = app => {
         category: {
             type: String
         },
+        create_time: {
+            type: String
+        },
         origin: {
             type: String
         },
