@@ -34,9 +34,16 @@ def search_page(category, page=1, retry_times=0):
         target_list_len = len(target_list)
         for index, target in enumerate(target_list):
             if db.exists(target['href']):
-                sleep(.1)
+                target_page = get_target_page(target)
+                create_time = get_target_create_time(target_page)
+
+                db.update(target['href'], {'create_time': create_time})
             else:
-                target['torrent_list'] = get_target_torrent(target)
+                target_page = get_target_page(target)
+                target['torrent_list'] = get_target_torrent(
+                    target_page, target)
+                target['create_time'] = get_target_create_time(target_page)
+
                 db.put(target)
 
             print('page {}: {}/{}'.format(page, index + 1, target_list_len))
@@ -84,8 +91,8 @@ def get_target_list(category, target_list):
     return mixed_list
 
 
-# 获取 torrent 链接地址
-def get_target_torrent(target_page, retry_times=0):
+# 获取 target 页面内容
+def get_target_page(target_page, retry_times=0):
     try:
         req = requests.get(
             url=target_page['href'], headers=headers, timeout=30)
@@ -94,33 +101,51 @@ def get_target_torrent(target_page, retry_times=0):
         html = req.text
 
         soup = BeautifulSoup(html.encode('gbk', 'ignore'), 'lxml')
-        wrapper = soup.find('ignore_js_op')
-        if wrapper != None:
-            torrent_page_list = soup.find('ignore_js_op').find_all('a')
-        else:
-            torrent_page_list = []
 
-        torrent_list = []
-        for torrent in torrent_page_list:
-            href = torrent.get('href')
-            isAttachment = re.search(r'forum\.php\?mod\=attachment', href)
-
-            if isAttachment == None:
-                href = get_torrent_by_url(target_page['origin'] + '/' + href)
-
-            torrent_list.append({
-                'href': target_page['origin'] + '/' + href,
-                'title': torrent.contents[0].strip()
-            })
-
-        return torrent_list
+        return soup
 
     except Exception as e:
         print(e)
         retry_times = retry_times + 1
         stdout.write('\rSomething wrong, retry...%d' % retry_times)
         stdout.flush
-        return get_target_torrent(target_page, retry_times)
+        return get_target_page(target_page, retry_times)
+
+
+# 获取 target 创建时间
+def get_target_create_time(soup):
+    time_wrapper = soup.find(id='postlist').find(
+        'em', id=re.compile('authorposton'))
+
+    create_time = re.search(r'(\d{4}-\d+-\d+\s+\d+:\d+:\d+)',
+                            time_wrapper.text).group()
+
+    return create_time
+
+
+# 获取 torrent 链接地址
+def get_target_torrent(soup, target_page):
+    wrapper = soup.find('ignore_js_op')
+
+    if wrapper != None:
+        torrent_page_list = soup.find('ignore_js_op').find_all('a')
+    else:
+        torrent_page_list = []
+
+    torrent_list = []
+    for torrent in torrent_page_list:
+        href = torrent.get('href')
+        isAttachment = re.search(r'forum\.php\?mod\=attachment', href)
+
+        if isAttachment == None:
+            href = get_torrent_by_url(target_page['origin'] + '/' + href)
+
+        torrent_list.append({
+            'href': target_page['origin'] + '/' + href,
+            'title': torrent.contents[0].strip()
+        })
+
+    return torrent_list
 
 
 def get_torrent_by_url(url, retry_times=0):

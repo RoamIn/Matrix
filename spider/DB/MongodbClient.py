@@ -34,7 +34,7 @@ class MongodbClient(object):
         self.db[self.name].remove()
 
     def update(self, key, value):
-        self.db[self.name].update({'href': key}, {'$inc': {'num': value}})
+        self.db[self.name].update({'href': key}, {'$set': value})
 
     def exists(self, key):
         return True if self.db[self.name].find_one({
