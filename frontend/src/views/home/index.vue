@@ -83,7 +83,7 @@ export default {
       this.getTorrentByTitle()
     },
     onScroll (e) {
-      if (this.isLoading || this.noMore) {
+      if (this.isLoading || this.noMore || this.hasError) {
         return
       }
 
