@@ -1,5 +1,5 @@
 <template>
-  <div class="no-result">:( There's nothing here ...</div>
+  <div class="no-result"><slot>:( There's no more here ...</slot></div>
 </template>
 
 <script>

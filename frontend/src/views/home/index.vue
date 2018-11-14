@@ -1,14 +1,17 @@
 <template>
-  <main>
+  <main @scroll="onScroll">
     <drawer></drawer>
     <div class="center">
-      <search class="search" @search="search"></search>
+      <search class="search" @search="onSearch"></search>
 
+      <torrent-list :list="list"></torrent-list>
       <loading v-if="isLoading"/>
-      <torrent-list :list="list" v-else></torrent-list>
 
       <error v-if="hasError">Error</error>
-      <no-result v-else-if="list.length === 0"></no-result>
+      <no-result v-else-if="!isLoading && noMore">
+        <template v-if="list.length === 0">:( There's no thing here ...</template>
+        <template v-else>&lt;\end&gt;</template>
+      </no-result>
     </div>
   </main>
 </template>
@@ -20,6 +23,8 @@ import Loading from './components/loading.vue'
 import Search from './components/search.vue'
 import Error from './components/error.vue'
 import NoResult from './components/no-result.vue'
+
+const WINDOW_INNER_HEIGHT = window.innerHeight
 
 export default {
   name: 'Home',
@@ -35,23 +40,59 @@ export default {
     return {
       list: [],
       isLoading: false,
-      hasError: false
+      hasError: false,
+      noMore: false,
+      searchParams: {
+        title: ''
+      }
     }
   },
   methods: {
-    search (title) {
+    onSearch (title) {
+      this.list = []
+      this.noMore = false
+      this.setSearchParams({title, page: 1})
+      this.getTorrentByTitle()
+    },
+    setSearchParams (parmas = {}) {
+      Object.assign(this.searchParams, parmas)
+    },
+    getTorrentByTitle () {
+      const data = JSON.parse(JSON.stringify(this.searchParams))
+
       this.hasError = false
       this.isLoading = true
 
-      this.$ajax('getTorrentByTitle', {
-        title
-      }).then((res) => {
-        this.list = res.data.list
-      }).catch(() => {
-        this.hasError = true
-      }).finally(() => {
-        this.isLoading = false
-      })
+      setTimeout(() => {
+        this.$ajax('getTorrentByTitle', data).then((res) => {
+          const list = res.data.list
+
+          this.noMore = list.length === 0
+          this.list = this.list.concat(res.data.list)
+        }).catch(() => {
+          this.hasError = true
+        }).finally(() => {
+          this.isLoading = false
+        })
+      }, 1000)
+    },
+    searchNextPage () {
+      const page = this.searchParams.page + 1
+
+      this.setSearchParams({page})
+      this.getTorrentByTitle()
+    },
+    onScroll (e) {
+      if (this.isLoading || this.noMore) {
+        return
+      }
+
+      const {scrollHeight, scrollTop} = e.target
+      const distanceToBottom = scrollHeight - WINDOW_INNER_HEIGHT - scrollTop
+
+      if (distanceToBottom < 20) {
+        this.searchNextPage()
+      }
     }
   }
 }

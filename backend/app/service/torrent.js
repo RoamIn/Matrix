@@ -6,6 +6,17 @@ class TorrentService extends Service {
 
         const hasTitle = title !== ''
 
+        if (!hasTitle && page > 1) {
+            return {
+                code: 0,
+                data: {
+                    list: [],
+                    total: 10
+                },
+                msg: 'success'
+            }
+        }
+
         try {
             const db = this.ctx.model.Torrent
             const reg = new RegExp(title, 'i')
