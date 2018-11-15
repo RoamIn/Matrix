@@ -25,7 +25,7 @@ class TorrentService extends Service {
 
             const result = await Promise.all([
                 db.count(query),
-                db.find(query).sort({create_time: -1}).skip(skip).limit(pageSize)
+                db.find(query).sort({create_time: 1}).skip(skip).limit(pageSize)
             ])
 
             return {
