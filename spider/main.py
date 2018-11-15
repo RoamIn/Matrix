@@ -34,10 +34,7 @@ def search_page(category, page=1, retry_times=0):
         target_list_len = len(target_list)
         for index, target in enumerate(target_list):
             if db.exists(target['href']):
-                target_page = get_target_page(target)
-                create_time = get_target_create_time(target_page)
-
-                db.update(target['href'], {'create_time': create_time})
+                sleep(.05)
             else:
                 target_page = get_target_page(target)
                 target['torrent_list'] = get_target_torrent(
