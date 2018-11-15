@@ -5,7 +5,7 @@
       <div class="list-item-header">
         <h4 class="movie-title">{{ item.title }}</h4>
         <div class="movie-info">
-          <time><v-icon class="icon-time" name="calendar"/>{{ item.create_time }}</time>
+          <time><v-icon class="icon-time" name="calendar"/>{{ item.create_time | formatDate }}</time>
         </div>
       </div>
       <div class="list-item-body">
@@ -22,6 +22,8 @@
 </template>
 
 <script>
+import {formatDate} from '@/utils/time'
+
 export default {
   name: 'List',
   props: {
@@ -29,6 +31,9 @@ export default {
       type: Array,
       default: () => []
     }
+  },
+  filters: {
+    formatDate
   },
   data () {
     return {}
