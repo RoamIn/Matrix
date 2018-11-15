@@ -2,7 +2,7 @@
 import re
 from sys import stdout
 import requests
-from time import sleep
+import time
 from bs4 import BeautifulSoup
 
 from DB.DbClient import DbClient
@@ -34,7 +34,11 @@ def search_page(category, page=1, retry_times=0):
         target_list_len = len(target_list)
         for index, target in enumerate(target_list):
             if db.exists(target['href']):
-                sleep(.05)
+                target_page = get_target_page(target)
+                create_time = get_target_create_time(target_page)
+
+                db.update(target['href'], {'create_time': create_time})
+                # time.sleep(.05)
             else:
                 target_page = get_target_page(target)
                 target['torrent_list'] = get_target_torrent(
@@ -50,7 +54,7 @@ def search_page(category, page=1, retry_times=0):
         next_page = current_page_dom.find_next_sibling('a')
 
         if next_page != None:
-            sleep(.2)
+            time.sleep(.2)
             search_page(category, next_page.string)
         else:
             print(':)\nEverything done !')
@@ -116,6 +120,7 @@ def get_target_create_time(soup):
 
     create_time = re.search(r'(\d{4}-\d+-\d+\s+\d+:\d+:\d+)',
                             time_wrapper.text).group()
+    create_time = time.mktime(time.strptime(create_time, '%Y-%m-%d %H:%M:%S'))
 
     return create_time
 
