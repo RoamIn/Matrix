@@ -110,7 +110,7 @@ export default {
       width: 100%;
       height: 100%;
       filter: blur(16px);
-      background: url("~@/assets/img/Venom.jpg") 0 / cover;
+      background: url("//pi7ps3xga.bkt.clouddn.com/Venom.jpg") 0 / cover;
       transform: scale(1.1);
     }
   }
