@@ -8,7 +8,7 @@ module.exports = app => {
             type: String
         },
         create_time: {
-            type: Date
+            type: Number
         },
         origin: {
             type: String

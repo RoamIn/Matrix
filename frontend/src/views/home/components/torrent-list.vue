@@ -5,7 +5,7 @@
       <div class="list-item-header">
         <h4 class="movie-title">{{ item.title }}</h4>
         <div class="movie-info">
-          <time><v-icon class="icon-time" name="calendar"/>{{ item.create_time | formatDate }}</time>
+          <time><v-icon class="icon-time" name="calendar"/>{{ item.create_time | formatTimestamp }}</time>
         </div>
       </div>
       <div class="list-item-body">
@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import {formatDate} from '@/utils/time'
+import {formatTimestamp} from '@/utils/time'
 
 export default {
   name: 'List',
@@ -33,7 +33,7 @@ export default {
     }
   },
   filters: {
-    formatDate
+    formatTimestamp
   },
   data () {
     return {}
