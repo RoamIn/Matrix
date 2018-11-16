@@ -10,11 +10,14 @@
     </button>
 
     <div class="drawer-main" @click.stop>
-      <div class="header">设置</div>
+      <div class="header">背景设置</div>
       <div class="content">
         <div class="settings-menu">
-          <a href="javascript:;">
-            梦幻天堂龙网
+          <a href="javascript:;" v-for="(item, index) in backgroundList"
+             :key="index"
+             :class="{active: currentBackgroundIndex === index}"
+             @click="setBackground(index)">
+            {{ item.title }}
           </a>
         </div>
       </div>
@@ -32,7 +35,27 @@ export default {
   },
   data () {
     return {
-      open: false
+      open: false,
+      backgroundSelector: null,
+      currentBackgroundIndex: 0,
+      backgroundList: [
+        {
+          title: 'venom',
+          img: '//pi7ps3xga.bkt.clouddn.com/venom.jpg'
+        },
+        {
+          title: 'girl',
+          img: '//pi7ps3xga.bkt.clouddn.com/girl.jpg'
+        },
+        {
+          title: 'iceland',
+          img: '//pi7ps3xga.bkt.clouddn.com/iceland.jpg'
+        },
+        {
+          title: 'sky',
+          img: '//pi7ps3xga.bkt.clouddn.com/sky.jpg'
+        }
+      ]
     }
   },
   methods: {
@@ -41,7 +64,35 @@ export default {
     },
     hide () {
       this.open = false
+    },
+    loadImage (url) {
+      const image = new Image()
+
+      image.src = url
+
+      return new Promise((resolve) => {
+        image.onload = () => {
+          resolve()
+        }
+      })
+    },
+    setBackground (index) {
+      const imgUrl = this.backgroundList[index].img
+
+      this.loadImage(imgUrl).then(() => {
+        this.backgroundSelector.style.backgroundImage = `url("${imgUrl}")`
+      })
+
+      this.currentBackgroundIndex = index
+      localStorage.setItem('backgroundImageIndex', index)
     }
+  },
+  created () {
+    this.currentBackgroundIndex = localStorage.getItem('backgroundImageIndex') || 0
+  },
+  mounted () {
+    this.backgroundSelector = document.getElementById('background')
+    this.setBackground(this.currentBackgroundIndex)
   }
 }
 </script>
@@ -119,7 +170,9 @@ export default {
     border-radius: 8px;
     color: #fff;
     text-shadow: 0 0 15px;
+    text-transform: capitalize;
 
+    &.active,
     &:hover {
       background: rgba(#fff, .2);
     }

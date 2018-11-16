@@ -1,5 +1,6 @@
 <template>
   <main @scroll="onScroll">
+    <div id="background"></div>
     <drawer></drawer>
     <div class="center">
       <search class="search" @search="onSearch"></search>
@@ -103,8 +104,7 @@ export default {
     overflow: hidden;
     position: relative;
 
-    &::before {
-      content: '';
+    #background {
       z-index: -1;
       position: absolute;
       width: 100%;
