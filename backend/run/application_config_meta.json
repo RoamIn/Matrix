@@ -30,6 +30,13 @@
     "ak": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/config/config.default.js",
     "sk": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/config/config.default.js"
   },
+  "cluster": {
+    "listen": {
+      "port": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/config/config.default.js",
+      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/config/config.default.js"
+    }
+  },
   "security": {
     "domainWhiteList": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-security/config/config.default.js",
     "protocolWhiteList": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg-security/config/config.default.js",
@@ -261,13 +268,6 @@
   },
   "coreMiddleware": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/config/config.default.js",
   "workerStartTimeout": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/config/config.default.js",
-  "cluster": {
-    "listen": {
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/config/config.default.js",
-      "port": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/config/config.default.js"
-    }
-  },
   "clusterClient": {
     "maxWaitTime": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/config/config.default.js",
     "responseTimeout": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/egg/config/config.default.js"

@@ -304,7 +304,7 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 7001,
+        "port": 8080,
         "hostname": ""
       }
     },

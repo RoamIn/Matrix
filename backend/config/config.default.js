@@ -25,6 +25,11 @@ module.exports = appInfo => {
         qiniu: { // 这里填写你七牛的Access Key和Secret Key
             ak: '',
             sk: ''
+        },
+        cluster: {
+            listen: {
+                port: 8080
+            }
         }
     }
 }
