@@ -43,13 +43,13 @@ export default {
           title: 'venom',
           blur: 16,
           mask: false,
-          img: './static/img/Venom.jpg'
+          img: '/public/client/dist/static/img/Venom.jpg'
         },
         {
           title: 'plane',
           blur: 4,
           mask: true,
-          img: './static/img/plane.png'
+          img: '/public/client/dist/static/img/plane.png'
         }
       ]
     }
@@ -74,6 +74,8 @@ export default {
     },
     setBackground (index) {
       const style = this.backgroundList[index]
+
+      console.log(style.img)
 
       this.loadImage(style.img).then(() => {
         if (style.mask) {
