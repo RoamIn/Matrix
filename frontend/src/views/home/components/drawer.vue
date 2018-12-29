@@ -41,19 +41,15 @@ export default {
       backgroundList: [
         {
           title: 'venom',
-          img: '//pi7ps3xga.bkt.clouddn.com/venom.jpg'
+          blur: 16,
+          mask: false,
+          img: './static/img/Venom.jpg'
         },
         {
-          title: 'girl',
-          img: '//pi7ps3xga.bkt.clouddn.com/girl.jpg'
-        },
-        {
-          title: 'iceland',
-          img: '//pi7ps3xga.bkt.clouddn.com/iceland.jpg'
-        },
-        {
-          title: 'sky',
-          img: '//pi7ps3xga.bkt.clouddn.com/sky.jpg'
+          title: 'plane',
+          blur: 4,
+          mask: true,
+          img: './static/img/plane.png'
         }
       ]
     }
@@ -77,10 +73,16 @@ export default {
       })
     },
     setBackground (index) {
-      const imgUrl = this.backgroundList[index].img
+      const style = this.backgroundList[index]
 
-      this.loadImage(imgUrl).then(() => {
-        this.backgroundSelector.style.backgroundImage = `url("${imgUrl}")`
+      this.loadImage(style.img).then(() => {
+        if (style.mask) {
+          this.backgroundSelector.className = this.backgroundSelector.className + ' mask'
+        } else {
+          this.backgroundSelector.className = this.backgroundSelector.className.replace('mask', '')
+        }
+        this.backgroundSelector.style.filter = `blur(${style.blur}px)`
+        this.backgroundSelector.style.backgroundImage = `url("${style.img}")`
       })
 
       this.currentBackgroundIndex = index

@@ -109,9 +109,18 @@ export default {
       position: absolute;
       width: 100%;
       height: 100%;
-      filter: blur(16px);
-      background: url("//pi7ps3xga.bkt.clouddn.com/Venom.jpg") 0 / cover;
+      background: 0 / cover;
       transform: scale(1.1);
+
+      &.mask:after {
+        content: "";
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(13, 13, 13, 0.45);
+      }
     }
   }
 </style>
