@@ -43,13 +43,13 @@ export default {
           title: 'venom',
           blur: 16,
           mask: false,
-          img: '/public/client/dist/static/img/Venom.jpg'
+          img: 'http://pky7jh69x.bkt.clouddn.com/Venom.jpg'
         },
         {
           title: 'plane',
           blur: 4,
           mask: true,
-          img: '/public/client/dist/static/img/plane.png'
+          img: 'http://pky7jh69x.bkt.clouddn.com/plane.png'
         }
       ]
     }
