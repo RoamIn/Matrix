@@ -10,7 +10,7 @@
     </button>
 
     <div class="drawer-main" @click.stop>
-      <div class="header">背景设置</div>
+      <div class="header">Background</div>
       <div class="content">
         <div class="settings-menu">
           <a href="javascript:;" v-for="(item, index) in backgroundList"
@@ -43,13 +43,19 @@ export default {
           title: 'venom',
           blur: 16,
           mask: false,
-          img: 'http://pky7jh69x.bkt.clouddn.com/Venom.jpg'
+          img: './static/Venom.jpg'
         },
         {
           title: 'plane',
           blur: 4,
           mask: true,
-          img: 'http://pky7jh69x.bkt.clouddn.com/plane.png'
+          img: './static/plane.png'
+        },
+        {
+          title: 'raindrops',
+          blur: 4,
+          mask: true,
+          img: './static/raindrops.jpg'
         }
       ]
     }
