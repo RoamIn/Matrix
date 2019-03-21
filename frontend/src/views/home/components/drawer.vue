@@ -40,22 +40,16 @@ export default {
       currentBackgroundIndex: 0,
       backgroundList: [
         {
-          title: 'venom',
-          blur: 16,
-          mask: false,
-          img: './static/Venom.jpg'
-        },
-        {
           title: 'plane',
           blur: 4,
           mask: true,
-          img: './static/plane.png'
+          img: 'https://alpha.wallhaven.cc/wallpapers/thumb/small/th-598944.jpg'
         },
         {
-          title: 'raindrops',
-          blur: 4,
+          title: 'Spider Man',
+          blur: 3,
           mask: true,
-          img: './static/raindrops.jpg'
+          img: 'https://alpha.wallhaven.cc/wallpapers/thumb/small/th-730473.jpg'
         }
       ]
     }
