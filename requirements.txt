@@ -1,4 +1,0 @@
-requests==2.20.0
-lxml==4.2.5
-
-pymongo
