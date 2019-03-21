@@ -43,13 +43,13 @@ export default {
           title: 'plane',
           blur: 4,
           mask: true,
-          img: 'https://alpha.wallhaven.cc/wallpapers/thumb/small/th-598944.jpg'
+          img: 'https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-598944.png'
         },
         {
           title: 'Spider Man',
-          blur: 3,
+          blur: 0,
           mask: true,
-          img: 'https://alpha.wallhaven.cc/wallpapers/thumb/small/th-730473.jpg'
+          img: 'https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-730473.jpg'
         }
       ]
     }
