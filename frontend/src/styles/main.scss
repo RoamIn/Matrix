@@ -1,0 +1,11 @@
+@import "variables";
+@import "mixins";
+@import "animations";
+
+// Normalize
+@import "normalize";
+
+body {
+  min-height: 100vh;
+  background-color: #000;
+}
