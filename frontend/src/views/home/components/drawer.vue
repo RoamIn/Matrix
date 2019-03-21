@@ -40,16 +40,16 @@ export default {
       currentBackgroundIndex: 0,
       backgroundList: [
         {
-          title: 'plane',
-          blur: 4,
-          mask: true,
-          img: 'https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-598944.png'
-        },
-        {
           title: 'Spider Man',
           blur: 0,
           mask: true,
           img: 'https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-730473.jpg'
+        },
+        {
+          title: 'plane',
+          blur: 4,
+          mask: true,
+          img: 'https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-598944.png'
         }
       ]
     }
