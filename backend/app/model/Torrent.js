@@ -28,5 +28,5 @@ module.exports = app => {
         }
     })
 
-    return conn.model('Torrent', TorrentSchema, 'lw')
+    return conn.model('Torrent', TorrentSchema, 'lws')
 }
