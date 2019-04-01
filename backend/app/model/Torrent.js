@@ -4,29 +4,19 @@ module.exports = app => {
     const conn = app.mongooseDB.get('movie')
 
     const TorrentSchema = new Schema({
-        category: {
-            type: String
-        },
-        create_time: {
-            type: Number
-        },
-        origin: {
-            type: String
-        },
         title: {
             type: String
         },
-        pathname: {
+        name: {
             type: String
         },
-        href: {
+        url: {
             type: String
         },
-        torrent_list: {
-            type: Array,
-            default: []
+        origin: {
+            type: String
         }
     })
 
-    return conn.model('Torrent', TorrentSchema, 'lws')
+    return conn.model('Torrent', TorrentSchema, 'torrents')
 }

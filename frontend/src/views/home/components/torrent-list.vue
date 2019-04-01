@@ -9,13 +9,10 @@
         </div>
       </div>
       <div class="list-item-body">
-        <ul class="torrent-list" v-for="(torrent, torrentIndex) in item.torrent_list"
-            :key="torrentIndex">
-          <li class="torrent-list-item">
-            <div class="torrent-title"><v-icon class="icon-attachment" name="attachment"/>{{ torrent.title }}</div>
-            <a class="download-btn" :href="torrent.href">下载</a>
-          </li>
-        </ul>
+          <div class="torrent-list-item">
+            <div class="torrent-title"><v-icon class="icon-attachment" name="attachment"/>{{ item.name }}</div>
+            <a class="download-btn" :href="item.url">下载</a>
+          </div>
       </div>
     </li>
   </ul>
