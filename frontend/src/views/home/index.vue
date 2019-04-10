@@ -18,17 +18,17 @@
 </template>
 
 <script>
-import Drawer from "./components/drawer.vue";
-import MagnetList from "./components/magnet-list.vue";
-import Loading from "./components/loading.vue";
-import Search from "./components/search.vue";
-import Error from "./components/error.vue";
-import NoResult from "./components/no-result.vue";
+import Drawer from './components/drawer.vue'
+import MagnetList from './components/magnet-list.vue'
+import Loading from './components/loading.vue'
+import Search from './components/search.vue'
+import Error from './components/error.vue'
+import NoResult from './components/no-result.vue'
 
-const WINDOW_INNER_HEIGHT = window.innerHeight;
+const WINDOW_INNER_HEIGHT = window.innerHeight
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     Drawer,
     MagnetList,
@@ -37,69 +37,69 @@ export default {
     Error,
     NoResult
   },
-  data() {
+  data () {
     return {
       list: [],
       isLoading: false,
       hasError: false,
       noMore: false,
       searchParams: {
-        title: ""
+        title: ''
       }
-    };
+    }
   },
   methods: {
-    onSearch(title) {
-      this.list = [];
-      this.noMore = false;
-      this.setSearchParams({ title, page: 1 });
-      this.getTorrentByTitle();
+    onSearch (title) {
+      this.list = []
+      this.noMore = false
+      this.setSearchParams({ title, page: 1 })
+      this.getTorrentByTitle()
     },
-    setSearchParams(parmas = {}) {
-      Object.assign(this.searchParams, parmas);
+    setSearchParams (parmas = {}) {
+      Object.assign(this.searchParams, parmas)
     },
-    getTorrentByTitle() {
-      const data = JSON.parse(JSON.stringify(this.searchParams));
+    getTorrentByTitle () {
+      const data = JSON.parse(JSON.stringify(this.searchParams))
 
-      this.hasError = false;
-      this.isLoading = true;
+      this.hasError = false
+      this.isLoading = true
 
       setTimeout(() => {
-        this.$ajax("getMagnetByTitle", data)
+        this.$ajax('getMagnetByTitle', data)
           .then(res => {
-            const list = res.data.list;
+            const list = res.data.list
 
-            this.noMore = list.length === 0;
-            this.list = this.list.concat(res.data.list);
+            this.noMore = list.length === 0
+            this.list = this.list.concat(res.data.list)
           })
           .catch(() => {
-            this.hasError = true;
+            this.hasError = true
           })
           .finally(() => {
-            this.isLoading = false;
-          });
-      }, 1000);
+            this.isLoading = false
+          })
+      }, 1000)
     },
-    searchNextPage() {
-      const page = this.searchParams.page + 1;
+    searchNextPage () {
+      const page = this.searchParams.page + 1
 
-      this.setSearchParams({ page });
-      this.getTorrentByTitle();
+      this.setSearchParams({ page })
+      this.getTorrentByTitle()
     },
-    onScroll(e) {
+    onScroll (e) {
       if (this.isLoading || this.noMore || this.hasError) {
-        return;
+        return
       }
 
-      const { scrollHeight, scrollTop } = e.target;
-      const distanceToBottom = scrollHeight - WINDOW_INNER_HEIGHT - scrollTop;
+      const { scrollHeight, scrollTop } = e.target
+      const distanceToBottom = scrollHeight - WINDOW_INNER_HEIGHT - scrollTop
 
       if (distanceToBottom < 20) {
-        this.searchNextPage();
+        this.searchNextPage()
       }
     }
   }
-};
+}
 </script>
 
 <style lang="scss">
