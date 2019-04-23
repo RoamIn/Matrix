@@ -1,6 +1,6 @@
 const Service = require('egg').Service
 
-class TorrentService extends Service {
+class MagnetService extends Service {
     async getByTitle({ title = '', page = 1, pageSize = 10 }) {
         title = title.trim()
 
@@ -18,20 +18,24 @@ class TorrentService extends Service {
         }
 
         try {
-            const db = this.ctx.model.Torrent
+            const db = this.ctx.model.Magnet
             const reg = new RegExp(title, 'i')
-            const query = { title: { $regex: reg } }
+            const query = { torrent_title: { $regex: reg } }
             const skip = hasTitle ? (pageSize * (page - 1)) : 0
 
             const result = await Promise.all([
                 db.count(query),
-                db.find(query).skip(skip).limit(pageSize)
+                db.find(query).sort({ 'created': -1 }).skip(skip).limit(pageSize)
             ])
 
             return {
                 code: 0,
                 data: {
-                    list: result[1],
+                    list: result[1].map(({ torrent_title: title, torrent_name: filename, created, length, magnet }) => {
+                        return {
+                            title, created, length, magnet, filename
+                        }
+                    }),
                     total: hasTitle ? result[0] : 10
                 },
                 msg: 'success'
@@ -47,4 +51,4 @@ class TorrentService extends Service {
     }
 }
 
-module.exports = TorrentService
+module.exports = MagnetService

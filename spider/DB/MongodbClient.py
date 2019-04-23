@@ -28,7 +28,7 @@ class MongodbClient(object):
         return {p['href'] for p in self.db[self.name].find()}
 
     def clean(self):
-        self.client.drop_database('lw')
+        self.client.drop_database('lws')
 
     def delete_all(self):
         self.db[self.name].remove()
