@@ -1,35 +1,41 @@
-module.exports = appInfo => {
-    return {
-        keys: appInfo.name + '_153332185447_3632',
-        mongoose: {
-            clients: {
-                movie: {
-                    url: 'mongodb://127.0.0.1/movie',
-                    options: {
-                        // user: 'test', // 数据库账号
-                        // pass: 'test'  // 数据库密码
-                    }
-                }
-            }
-        },
-        user: { // 初始化管理员的账号
-            userName: 'admin',
-            password: 'admin',
-        },
-        session: {
-            maxAge: 3600 * 1000,
-        },
-        jwt: {
-            cert: 'huanggegehaoshuai' // jwt秘钥
-        },
-        qiniu: { // 这里填写你七牛的Access Key和Secret Key
-            ak: '',
-            sk: ''
-        },
-        cluster: {
-            listen: {
-                port: 8321
+
+exports.keys = 'Matrix'
+
+exports.mongoose = {
+    clients: {
+        movie: {
+            url: 'mongodb://127.0.0.1/movie',
+            options: {
+                // user: 'test', // 数据库账号
+                // pass: 'test'  // 数据库密码
             }
         }
+    }
+}
+exports.user = { // 初始化管理员的账号
+    userName: 'admin',
+    password: 'admin',
+}
+exports.session = {
+    maxAge: 3600 * 1000,
+}
+
+exports.cluster = {
+    listen: {
+        port: 8321
+    }
+}
+
+exports.view = {
+    defaultViewEngine: 'nunjucks',
+    mapping: {
+        '.nj': 'nunjucks'
+    }
+}
+
+exports.httpProxy = {
+    '/v2': {
+        target: 'http://api.douban.com',
+        changeOrigin: true
     }
 }

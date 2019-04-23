@@ -73,7 +73,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -85,8 +85,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
-        "development": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
+        "default": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -132,18 +132,20 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/public",
+      "dir": "/Users/vinci/Workspace/GitHub/Matrix/backend/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/app/view",
+      "root": "/Users/vinci/Workspace/GitHub/Matrix/backend/app/view",
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
-      "mapping": {}
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".nj": "nunjucks"
+      }
     },
     "mongoose": {
       "url": "",
@@ -158,10 +160,26 @@
         }
       }
     },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
+    },
+    "httpProxy": {
+      "/v2": {
+        "target": "http://api.douban.com",
+        "pathRewrite": {
+          "^/v2": ""
+        }
+      }
+    },
     "env": "local",
     "name": "backend",
-    "keys": "<String len: 25>",
+    "keys": "<String len: 6>",
     "proxy": false,
+    "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
@@ -177,15 +195,17 @@
       "license": "MIT",
       "dependencies": {
         "egg": "^2.13.0",
-        "egg-mongoose": "^3.1.1"
+        "egg-http-proxy": "^0.1.0",
+        "egg-mongoose": "^3.1.1",
+        "egg-view-nunjucks": "^2.2.0"
       },
       "devDependencies": {
         "egg-bin": "^4.9.0"
       }
     },
-    "baseDir": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend",
+    "baseDir": "/Users/vinci/Workspace/GitHub/Matrix/backend",
     "HOME": "/Users/vinci",
-    "rundir": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/run",
+    "rundir": "/Users/vinci/Workspace/GitHub/Matrix/backend/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -215,7 +235,7 @@
       }
     },
     "logger": {
-      "dir": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/logs/backend",
+      "dir": "/Users/vinci/Workspace/GitHub/Matrix/backend/logs/backend",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -282,13 +302,6 @@
       "userName": "admin",
       "password": "<String len: 5>"
     },
-    "jwt": {
-      "cert": "huanggegehaoshuai"
-    },
-    "qiniu": {
-      "ak": "",
-      "sk": ""
-    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares"
@@ -301,8 +314,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg@2.20.1@egg/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-session@3.1.0@egg-session",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -314,8 +327,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg@2.20.1@egg/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-security@2.5.0@egg-security",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-security",
       "version": "2.5.0"
     },
     "jsonp": {
@@ -327,8 +340,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg@2.20.1@egg/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -340,8 +353,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg@2.20.1@egg/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -351,8 +364,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg@2.20.1@egg/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-i18n@2.0.0@egg-i18n",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -362,8 +375,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg@2.20.1@egg/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-watcher@3.1.0@egg-watcher",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -373,8 +386,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg@2.20.1@egg/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-schedule@3.6.1@egg-schedule",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-schedule",
       "version": "3.6.1"
     },
     "multipart": {
@@ -386,8 +399,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg@2.20.1@egg/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-multipart@2.4.0@egg-multipart",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-multipart",
       "version": "2.4.0"
     },
     "development": {
@@ -401,8 +414,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg@2.20.1@egg/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-development@2.4.2@egg-development",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-development",
       "version": "2.4.2"
     },
     "logrotator": {
@@ -414,8 +427,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg@2.20.1@egg/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-logrotator@3.0.7@egg-logrotator",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-logrotator",
       "version": "3.0.7"
     },
     "static": {
@@ -425,8 +438,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg@2.20.1@egg/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-static@2.2.0@egg-static",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -436,8 +449,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg@2.20.1@egg/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-view@2.1.2@egg-view",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-view",
       "version": "2.1.2"
     },
     "mongoose": {
@@ -447,9 +460,34 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/config/plugin.js",
-      "path": "/Users/vinci/Workspace/GitHub/lw-torrent-finder/backend/node_modules/_egg-mongoose@3.1.1@egg-mongoose",
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-mongoose",
       "version": "3.1.1"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-view-nunjucks",
+      "version": "2.2.0"
+    },
+    "httpProxy": {
+      "enable": true,
+      "package": "egg-http-proxy",
+      "name": "httpProxy",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/plugin.js",
+      "path": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-http-proxy",
+      "version": "0.1.0"
     }
   }
 }
