@@ -33,7 +33,7 @@ class MagnetService extends Service {
                 data: {
                     list: result[1].map(({ torrent_title: title, torrent_name: filename, created, length, magnet }) => {
                         return {
-                            title, created, length, magnet, filename
+                            title, created: new Date(created), length, magnet, filename
                         }
                     }),
                     total: hasTitle ? result[0] : 10
