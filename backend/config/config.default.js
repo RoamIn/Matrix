@@ -34,8 +34,15 @@ exports.view = {
 }
 
 exports.httpProxy = {
-    '/v2': {
-        target: 'http://api.douban.com',
+    '/j': {
+        target: 'https://movie.douban.com',
         changeOrigin: true
+    },
+    '/view/photo': {
+        target: 'https://img1.doubanio.com',
+        changeOrigin: true,
+        headers: {
+            referer: 'https://movie.douban.com/'
+        }
     }
 }
