@@ -21,4 +21,7 @@ __pycache__
 
 backend/run
 backend/logs
-backend/app/public/client
+backend/app/view/index.html
+backend/app/public
+
+frontend/
