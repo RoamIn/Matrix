@@ -34,10 +34,6 @@ exports.view = {
 }
 
 exports.httpProxy = {
-<<<<<<< HEAD
-    '/j': {
-        target: 'https://movie.douban.com',
-=======
     '/rexxar': {
         target: 'https://m.douban.com',
         headers: {
@@ -56,15 +52,5 @@ exports.httpProxy = {
         },
         headers: {
             referer: 'https://m.douban.com/movie'
-        },
->>>>>>> dev
-        changeOrigin: true
-    },
-    '/view/photo': {
-        target: 'https://img1.doubanio.com',
-        changeOrigin: true,
-        headers: {
-            referer: 'https://movie.douban.com/'
         }
     }
-}
