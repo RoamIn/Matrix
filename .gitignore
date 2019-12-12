@@ -19,9 +19,7 @@ __pycache__
 # dist
 .dist
 
-backend/run
-backend/logs
-backend/app/view/index.html
-backend/app/public
-
+backend/run/
+backend/logs/
+backend/app/public/
 frontend/
