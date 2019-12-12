@@ -40,11 +40,26 @@
     "defaultExtension": "/Users/vinci/Workspace/GitHub/Matrix/backend/node_modules/egg-view/config/config.default.js"
   },
   "httpProxy": {
-    "/v2": {
+    "/rexxar": {
+      "target": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/config.default.js",
+      "headers": {
+        "referer": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/config.default.js"
+      },
+      "changeOrigin": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/config.default.js"
+    },
+    "/j": {
+      "target": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/config.default.js",
+      "changeOrigin": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/config.default.js"
+    },
+    "/picture/": {
       "target": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/config.default.js",
       "pathRewrite": {
-        "^/v2": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/config.default.js"
-      }
+        "^/picture/": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/config.default.js"
+      },
+      "headers": {
+        "referer": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/config.default.js"
+      },
+      "changeOrigin": "/Users/vinci/Workspace/GitHub/Matrix/backend/config/config.default.js"
     }
   },
   "security": {
