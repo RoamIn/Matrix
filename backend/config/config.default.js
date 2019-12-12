@@ -54,3 +54,4 @@ exports.httpProxy = {
             referer: 'https://m.douban.com/movie'
         }
     }
+}
