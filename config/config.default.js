@@ -1,17 +1,18 @@
 
 exports.keys = 'Matrix'
 
-exports.mongoose = {
-    clients: {
-        movie: {
-            url: 'mongodb://127.0.0.1/movie',
-            options: {
-                // user: 'test', // 数据库账号
-                // pass: 'test'  // 数据库密码
-            }
-        }
+exports.sequelize = {
+    dialect: 'mysql',
+    database: 'movie',
+    host: 'localhost',
+    port: 3306,
+    username: 'YSH',
+    password: '123456',
+    define: {
+        underscored: false
     }
 }
+
 exports.user = { // 初始化管理员的账号
     userName: 'admin',
     password: 'admin',
