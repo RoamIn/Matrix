@@ -9,8 +9,8 @@ class MagnetService extends Service {
             return {
                 code: 0,
                 data: {
-                    list: [],
-                    total: 10
+                    rows: [],
+                    count: 0
                 },
                 msg: 'success'
             }
